@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH -A m4142_g
+#SBATCH -C gpu
+#SBATCH -q regular
+#SBATCH -t 360:00
+#SBATCH -n 8
+#SBATCH -c 1
+#SBATCH -G 8
+#SBATCH --gpus-per-task=1
+#SBATCH -o qpe_g8
+
+export SLURM_CPU_BIND="cores"
+
+source /global/homes/a/angli/sc22/src/setup_perlmutter.sh
+srun -C gpu -N 2 -n 8 --gpus-per-task=1 --gpu-bind=single:1 /global/homes/a/angli/sc22/NWQ-Sim/qsharp/qpe/qpe_nvgpu /global/homes/a/angli/sc22/NWQ-Sim/qsharp/qpe/py_out.json
+
