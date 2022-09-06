@@ -21,19 +21,19 @@ SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit sim
 | X | X(q0) | Pauli-X gate on qubit 0 |
 | Y | Y(q0) | Pauli-Y gate on qubit 0 |
 | Z | Z(q0) | Pauli-Z gate on qubit 0 |
-| ID | ID(q0) | Identiy gate on qubit 0 |
 | H | H(q0) | Clifford Hadamard gate on qubit 0 |
 | S | S(q0) | Clifford sqrt(Z) phase gate on qubit 0 |
 | SDG | SDG(q0) | Clifford inverse of sqrt(Z) on qubit 0 |
 | T | T(q0) | sqrt(S) phase gate on qubit 0 |
 | TDG | TDG(q0) | Inverst of sqrt(S) on qubit 0 |
+| ID | ID(q0) | Identiy gate on qubit 0 |
+| SX | SX(q0) | sqrt(X) gate on qubit 0, a basis gate for IBMQ |
 | RI | RI(theta, q0) | Global phase gate, U(0,0,a) in QASM3 or RI in Q#|
 | RX | RX(theta, q0) | Rotate around X axis |
 | RY | RY(theta, q0) | Rotate around Y axis |
 | RZ | RZ(theta, q0) | Rotate around Z axis |
-| SX | SX(q0) | sqrt(X) gate on qubit 0, a basis gate for IBMQ |
-| P  | P(q0) | sqrt(X) gate on qubit 0, a basis gate for IBMQ |
-
+| P  | P(theta, q0)  | Phase gate as defined by Qiskit | 
+| U  | U(theta, phi, lambda, q0) | generic singl-qubit rotation gate with 3 Euler angles, see QASM | 
 
 
 
