@@ -16,10 +16,27 @@ NWQSim is under active development. Please raise any bugs and suggest features.
 SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It supports the following quantum gates based on QASM-2, QASM-3, and QIR:
 
 
+
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
+
+AAA:&#9658;
+
+
 |  Gate  | Format | Meaning |
 |:-----: | ------ | ------- |
-| X | X(q0) | Pauli-X gate |
-
+| X | X(q0) | Pauli-X gate on qubit 0 |
+| Y | Y(q0) | Pauli-Y gate on qubit 0 |
+| Z | Z(q0) | Pauli-Z gate on qubit 0 |
+| ID | ID(q0) | Identiy gate on qubit 0 |
+| H | H(q0) | Clifford Hadamard gate on qubit 0 |
+| S | S(q0) | Clifford sqrt(Z) phase gate on qubit 0 |
+| SDG | SDG(q0) | Clifford inverse of sqrt(Z) on qubit 0 |
+| T | T(q0) | sqrt(S) phase gate on qubit 0 |
+| TDG | TDG(q0) | inverst of sqrt(S) on qubit 0 |
+| RI | RI(q0) | global phase gate, U(0,0,a) in QASM3, RI in Q#|
+| RX | RX(q0) | global phase gate, U(0,0,a) in QASM3, RI in Q#|
 
 
 
