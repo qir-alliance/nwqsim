@@ -1,6 +1,6 @@
 # NWQSim: Northwest Quantum Circuit Simulation Environment 
 
-A Quantum System Simulation Environment on classical multi-node, multi-CPU/GPU heterogeneous HPC systems. It currently includes a state-vector simulator SV-Sim ([SC'21](doc/paper_sc21) for high-performance ideal simulation, and a density matrix simulator DM-Sim ([SC'20](doc/paper_sc20) for noise-aware simulation. It supports C++, Python, Q#/QIR, Qiskit, QASM, XACC as the front-ends, and X86/PPC CPU, NVIDIA/AMD GPU as the backends, see below:
+A Quantum System Simulation Environment on classical multi-node, multi-CPU/GPU heterogeneous HPC systems. It currently includes a state-vector simulator SV-Sim ([SC'21](doc/svsim_sc21) for high-performance ideal simulation, and a density matrix simulator DM-Sim ([SC'20](doc/dmsim_sc20) for noise-aware simulation. It supports C++, Python, Q#/QIR, Qiskit, QASM, XACC as the front-ends, and X86/PPC CPU, NVIDIA/AMD GPU as the backends, see below:
 
 ![alt text](img/nwqsim.png)
 
@@ -15,8 +15,6 @@ NWQSim is under active development. Please raise any bugs and suggest features.
 
 SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It supports the following quantum gates based on QASM-2, QASM-3, and QIR:
 
-AAA:&#9658;
-
 
 |  Gate  | Format | Meaning |
 |:-----: | ------ | ------- |
@@ -28,9 +26,13 @@ AAA:&#9658;
 | S | S(q0) | Clifford sqrt(Z) phase gate on qubit 0 |
 | SDG | SDG(q0) | Clifford inverse of sqrt(Z) on qubit 0 |
 | T | T(q0) | sqrt(S) phase gate on qubit 0 |
-| TDG | TDG(q0) | inverst of sqrt(S) on qubit 0 |
-| RI | RI(theta, q0) | global phase gate, U(0,0,theta) in QASM3, RI in Q#|
-| RX | RX(theta, q0) | rotate theta around X axis |
+| TDG | TDG(q0) | Inverst of sqrt(S) on qubit 0 |
+| RI | RI(theta, q0) | Global phase gate, U(0,0,a) in QASM3 or RI in Q#|
+| RX | RX(theta, q0) | Rotate around X axis |
+| RY | RY(theta, q0) | Rotate around Y axis |
+| RZ | RZ(theta, q0) | Rotate around Z axis |
+| SX | SX(q0) | sqrt(X) gate on qubit 0, a basis gate for IBMQ |
+| P  | P(q0) | sqrt(X) gate on qubit 0, a basis gate for IBMQ |
 
 
 

@@ -1,0 +1,7572 @@
+Tue Aug  9 11:26:54 EDT 2022
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+12 -44.4449
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+A
+A
+B
+A
+B
+A
+A
+B
+A
+A
+B
+A
+A
+A
+A
+B
+A
+A
+A
+A
+A
+B
+A
+A
+A
+B
+A
+A
+A
+A
+A
+A
+A
+B
+A
+A
+B
+A
+A
+A
+A
+A
+A
+A
+A
+B
+A
+A
+A
+C
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+C
+D
+E
+A
+A
+B
+A
+A
+A
+A
+A
+A
+C
+A
+A
+A
+A
+A
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+A
+B
+A
+F
+G
+H
+I
+J
+K
+A
+B
+A
+A
+A
+A
+A
+A
+B
+A
+D
+E
+F
+G
+A
+A
+A
+A
+A
+B
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+A
+A
+B
+C
+B
+B
+A
+A
+A
+A
+B
+A
+C
+A
+A
+A
+A
+B
+B
+A
+A
+A
+B
+A
+B
+B
+A
+A
+B
+A
+A
+B
+A
+D
+E
+F
+G
+B
+B
+A
+A
+A
+A
+B
+B
+A
+H
+I
+J
+K
+A
+A
+A
+A
+B
+A
+B
+B
+A
+B
+B
+B
+B
+A
+B
+B
+B
+B
+A
+C
+A
+B
+B
+B
+B
+D
+E
+F
+G
+H
+I
+J
+K
+A
+A
+A
+A
+B
+B
+A
+B
+B
+B
+A
+B
+B
+B
+A
+A
+A
+B
+A
+B
+B
+B
+A
+A
+C
+B
+C
+A
+B
+B
+D
+E
+F
+G
+H
+I
+J
+K
+A
+A
+A
+A
+A
+A
+A
+A
+A
+B
+B
+A
+B
+B
+B
+B
+B
+B
+A
+A
+A
+A
+B
+B
+B
+B
+A
+B
+H
+I
+J
+K
+B
+C
+A
+A
+B
+A
+B
+C
+B
+B
+B
+A
+B
+C
+B
+A
+A
+A
+B
+B
+A
+A
+C
+D
+C
+B
+B
+B
+A
+C
+B
+B
+C
+B
+D
+E
+F
+G
+H
+B
+B
+A
+B
+B
+B
+D
+E
+F
+G
+B
+B
+A
+A
+E
+F
+G
+H
+C
+A
+B
+B
+A
+B
+A
+D
+E
+F
+G
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+C
+A
+B
+A
+B
+B
+C
+C
+A
+H
+I
+J
+K
+B
+C
+D
+E
+F
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+I
+J
+K
+D
+E
+F
+G
+H
+A
+B
+B
+B
+C
+A
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+C
+C
+A
+A
+I
+J
+K
+A
+A
+C
+A
+B
+B
+C
+D
+D
+E
+F
+G
+H
+C
+D
+B
+C
+A
+C
+G
+H
+I
+J
+K
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+C
+D
+E
+F
+G
+C
+B
+C
+D
+E
+A
+B
+A
+D
+E
+F
+G
+C
+D
+D
+E
+F
+G
+H
+D
+E
+F
+G
+H
+D
+E
+F
+G
+H
+I
+J
+K
+A
+D
+E
+F
+G
+C
+D
+E
+B
+A
+A
+A
+A
+A
+A
+A
+B
+C
+D
+E
+F
+G
+H
+I
+C
+D
+E
+F
+G
+I
+J
+K
+B
+D
+E
+F
+G
+A
+A
+B
+B
+A
+A
+D
+E
+F
+G
+H
+I
+A
+A
+C
+D
+E
+F
+G
+H
+I
+J
+K
+A
+A
+A
+A
+A
+A
+A
+B
+A
+A
+B
+B
+D
+E
+F
+G
+A
+I
+J
+K
+D
+E
+F
+G
+B
+A
+C
+D
+E
+F
+G
+A
+A
+B
+A
+A
+C
+D
+E
+F
+G
+H
+I
+K
+D
+E
+F
+G
+H
+D
+E
+F
+G
+H
+I
+J
+K
+A
+A
+C
+C
+D
+E
+A
+B
+A
+A
+A
+A
+B
+A
+C
+C
+D
+E
+F
+G
+E
+F
+G
+H
+I
+J
+K
+C
+B
+C
+A
+B
+B
+A
+B
+A
+B
+A
+A
+B
+C
+D
+E
+A
+C
+A
+A
+B
+A
+A
+A
+B
+A
+B
+B
+B
+C
+D
+A
+B
+A
+A
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+H
+I
+J
+K
+A
+A
+A
+H
+I
+J
+K
+B
+C
+I
+J
+K
+I
+J
+K
+A
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+A
+B
+B
+A
+A
+B
+A
+A
+D
+E
+F
+G
+E
+F
+G
+H
+I
+J
+H
+I
+J
+K
+D
+E
+F
+G
+H
+B
+C
+A
+B
+B
+A
+B
+A
+B
+B
+B
+J
+K
+D
+E
+F
+G
+A
+A
+B
+A
+B
+A
+B
+B
+B
+B
+B
+C
+D
+E
+F
+G
+C
+C
+D
+E
+C
+D
+E
+A
+F
+G
+H
+I
+J
+K
+A
+B
+B
+I
+J
+K
+A
+D
+E
+F
+G
+C
+D
+C
+D
+E
+F
+G
+H
+I
+J
+K
+F
+G
+B
+B
+A
+B
+B
+B
+C
+D
+E
+F
+A
+J
+K
+C
+C
+A
+B
+H
+I
+J
+K
+B
+B
+B
+B
+B
+B
+B
+A
+B
+F
+G
+H
+I
+J
+K
+C
+B
+B
+B
+A
+A
+B
+B
+B
+B
+H
+I
+J
+K
+D
+E
+F
+G
+B
+A
+C
+C
+A
+C
+D
+E
+F
+G
+H
+I
+J
+K
+A
+B
+B
+C
+H
+I
+J
+K
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+B
+B
+K
+B
+B
+A
+B
+K
+C
+D
+E
+D
+E
+F
+G
+H
+I
+J
+K
+I
+J
+K
+B
+D
+E
+F
+G
+B
+A
+B
+B
+A
+B
+B
+B
+B
+A
+C
+C
+D
+B
+B
+B
+B
+A
+A
+B
+C
+D
+E
+F
+G
+B
+H
+I
+J
+K
+B
+B
+F
+G
+H
+I
+J
+K
+A
+D
+E
+F
+G
+H
+I
+J
+K
+A
+A
+H
+I
+J
+K
+D
+E
+F
+G
+B
+B
+A
+C
+D
+E
+L
+M
+A
+L
+M
+D
+E
+F
+G
+C
+D
+E
+C
+D
+E
+F
+G
+B
+B
+C
+A
+B
+C
+H
+I
+J
+K
+B
+D
+E
+F
+G
+H
+A
+G
+H
+I
+J
+K
+B
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+C
+B
+B
+B
+B
+B
+C
+B
+D
+E
+F
+G
+H
+I
+J
+K
+B
+B
+B
+B
+A
+B
+H
+I
+J
+K
+C
+A
+B
+B
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+B
+A
+B
+C
+C
+D
+B
+A
+B
+C
+D
+E
+F
+G
+C
+A
+L
+M
+L
+M
+J
+K
+F
+G
+D
+E
+F
+G
+B
+F
+G
+H
+I
+J
+K
+B
+B
+D
+E
+F
+G
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+H
+I
+J
+K
+I
+J
+K
+B
+H
+I
+J
+K
+A
+C
+C
+D
+E
+B
+C
+B
+C
+D
+E
+F
+G
+H
+I
+H
+I
+J
+K
+B
+B
+B
+C
+A
+B
+E
+F
+G
+H
+I
+J
+K
+B
+B
+D
+E
+F
+G
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+B
+C
+B
+A
+B
+D
+E
+F
+G
+C
+D
+E
+E
+F
+G
+C
+A
+L
+M
+B
+D
+E
+F
+G
+H
+L
+M
+H
+I
+J
+K
+C
+H
+I
+J
+K
+B
+C
+D
+E
+B
+B
+C
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+E
+F
+G
+H
+I
+J
+K
+B
+B
+H
+I
+J
+K
+C
+B
+H
+I
+J
+K
+C
+C
+B
+C
+F
+G
+H
+I
+J
+K
+B
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+H
+I
+J
+K
+I
+J
+K
+B
+L
+M
+C
+C
+H
+I
+J
+K
+C
+L
+M
+D
+E
+F
+G
+H
+A
+C
+D
+E
+F
+G
+C
+B
+C
+D
+E
+B
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+C
+H
+I
+J
+K
+C
+D
+E
+F
+G
+C
+C
+C
+D
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+H
+A
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+C
+B
+B
+H
+I
+J
+K
+C
+D
+E
+F
+B
+H
+I
+J
+K
+C
+D
+E
+L
+M
+D
+E
+F
+G
+D
+E
+F
+G
+A
+B
+F
+G
+H
+I
+J
+K
+L
+M
+E
+F
+G
+H
+I
+B
+A
+D
+E
+F
+G
+D
+E
+F
+G
+C
+I
+J
+K
+C
+D
+E
+F
+C
+H
+I
+J
+K
+C
+D
+E
+F
+G
+D
+E
+F
+G
+C
+C
+A
+C
+F
+G
+H
+I
+J
+K
+I
+J
+K
+C
+J
+K
+D
+E
+F
+G
+C
+E
+F
+G
+H
+I
+J
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+B
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+A
+C
+D
+E
+G
+H
+I
+H
+I
+J
+K
+F
+G
+H
+I
+J
+K
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+C
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+B
+H
+I
+J
+K
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+L
+M
+A
+B
+D
+E
+F
+G
+H
+I
+J
+K
+C
+B
+D
+E
+F
+G
+D
+E
+F
+G
+B
+B
+C
+C
+D
+E
+F
+G
+C
+D
+E
+H
+I
+J
+B
+K
+D
+E
+F
+G
+I
+J
+K
+H
+I
+J
+K
+H
+I
+J
+K
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+B
+L
+M
+L
+M
+C
+C
+C
+H
+I
+J
+K
+A
+F
+G
+H
+I
+J
+K
+B
+C
+C
+C
+C
+D
+B
+C
+D
+E
+F
+G
+H
+I
+L
+M
+A
+C
+H
+I
+J
+K
+H
+I
+J
+K
+B
+A
+H
+I
+J
+K
+H
+C
+C
+D
+E
+F
+G
+K
+H
+I
+J
+K
+L
+M
+C
+D
+E
+J
+K
+L
+M
+B
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+C
+D
+E
+D
+E
+F
+G
+H
+H
+I
+J
+K
+D
+E
+F
+G
+D
+E
+F
+G
+D
+E
+F
+G
+C
+I
+J
+K
+A
+B
+L
+M
+B
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+B
+F
+G
+H
+I
+J
+K
+C
+B
+D
+E
+F
+G
+L
+M
+B
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+D
+E
+F
+G
+H
+I
+J
+K
+F
+G
+H
+I
+C
+D
+E
+F
+G
+L
+M
+L
+M
+A
+C
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+L
+M
+L
+M
+H
+I
+J
+K
+C
+D
+E
+F
+G
+F
+G
+H
+I
+J
+D
+E
+F
+G
+H
+I
+J
+K
+C
+L
+M
+B
+L
+M
+H
+I
+J
+K
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+B
+L
+M
+A
+B
+L
+M
+E
+F
+G
+H
+I
+J
+J
+K
+C
+D
+E
+L
+M
+L
+M
+C
+D
+E
+F
+G
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+G
+H
+I
+J
+K
+J
+K
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+C
+G
+D
+E
+F
+G
+H
+L
+M
+A
+L
+M
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+B
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+L
+M
+L
+M
+L
+M
+A
+C
+D
+E
+F
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+L
+M
+L
+M
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+A
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+C
+G
+H
+I
+J
+K
+C
+L
+M
+C
+K
+A
+C
+L
+M
+L
+M
+D
+E
+F
+G
+H
+G
+H
+I
+J
+K
+B
+B
+B
+A
+L
+M
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+C
+B
+D
+E
+F
+B
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+C
+H
+I
+J
+K
+I
+J
+K
+L
+M
+L
+M
+L
+M
+L
+M
+B
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+L
+M
+K
+L
+M
+L
+M
+B
+L
+M
+J
+K
+B
+L
+M
+B
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+D
+E
+F
+G
+L
+M
+C
+C
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+C
+C
+D
+E
+F
+G
+L
+M
+A
+L
+M
+C
+D
+E
+F
+G
+H
+C
+L
+M
+C
+D
+E
+F
+G
+L
+M
+A
+L
+M
+A
+H
+I
+J
+K
+D
+E
+F
+G
+C
+D
+E
+F
+G
+C
+L
+M
+L
+M
+L
+M
+C
+D
+E
+F
+G
+L
+M
+L
+M
+L
+M
+I
+J
+K
+L
+M
+F
+G
+H
+I
+J
+K
+C
+L
+M
+L
+M
+L
+M
+L
+M
+H
+I
+J
+K
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+L
+M
+L
+M
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+L
+M
+I
+J
+K
+C
+L
+M
+C
+H
+I
+J
+K
+C
+H
+I
+J
+K
+B
+L
+M
+D
+E
+F
+G
+L
+M
+C
+D
+E
+F
+G
+L
+M
+H
+I
+J
+K
+C
+C
+L
+M
+C
+C
+A
+L
+M
+L
+M
+L
+M
+L
+M
+C
+D
+E
+F
+G
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+C
+L
+M
+C
+D
+E
+F
+G
+H
+I
+J
+K
+A
+C
+B
+G
+H
+I
+J
+K
+B
+L
+M
+A
+H
+I
+J
+K
+B
+C
+H
+I
+J
+K
+D
+E
+F
+G
+L
+M
+B
+C
+L
+M
+L
+M
+D
+E
+F
+C
+L
+M
+L
+M
+L
+M
+H
+I
+J
+K
+A
+C
+C
+L
+M
+L
+M
+L
+M
+C
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+A
+C
+D
+E
+F
+G
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+A
+D
+E
+F
+G
+C
+D
+E
+F
+G
+H
+D
+E
+F
+G
+L
+M
+F
+G
+H
+I
+J
+K
+I
+J
+K
+L
+M
+B
+D
+E
+F
+G
+D
+E
+F
+G
+D
+E
+F
+G
+H
+L
+M
+A
+C
+L
+M
+B
+D
+E
+F
+G
+L
+M
+L
+M
+C
+D
+E
+L
+M
+A
+L
+M
+H
+I
+J
+K
+H
+I
+J
+K
+I
+J
+K
+L
+M
+B
+L
+M
+C
+L
+M
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+I
+J
+K
+H
+I
+J
+K
+L
+M
+H
+I
+J
+K
+B
+B
+B
+A
+H
+I
+J
+K
+D
+E
+F
+H
+I
+J
+K
+H
+I
+J
+K
+H
+I
+J
+K
+G
+C
+D
+D
+E
+F
+G
+L
+M
+K
+B
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+D
+E
+F
+G
+L
+M
+A
+D
+E
+F
+G
+L
+M
+L
+M
+H
+I
+J
+K
+D
+E
+F
+G
+B
+L
+M
+C
+H
+I
+J
+K
+C
+D
+E
+F
+G
+L
+M
+G
+H
+I
+J
+K
+L
+M
+L
+M
+C
+D
+E
+F
+G
+C
+H
+I
+J
+K
+A
+C
+L
+M
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+L
+M
+A
+L
+M
+L
+M
+H
+I
+A
+B
+C
+L
+M
+L
+M
+H
+I
+J
+K
+B
+C
+C
+D
+E
+F
+G
+C
+A
+L
+M
+A
+L
+M
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+D
+E
+F
+G
+H
+I
+A
+H
+I
+J
+K
+B
+H
+I
+J
+K
+A
+C
+D
+E
+F
+G
+H
+I
+A
+C
+L
+M
+L
+M
+J
+K
+B
+H
+I
+J
+K
+L
+M
+C
+C
+D
+C
+L
+M
+L
+M
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+L
+M
+C
+L
+M
+B
+L
+M
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+A
+C
+C
+D
+E
+F
+G
+C
+D
+E
+A
+C
+D
+E
+F
+G
+H
+I
+J
+K
+A
+C
+D
+E
+F
+H
+I
+J
+K
+C
+B
+B
+E
+F
+G
+H
+A
+D
+E
+F
+H
+I
+J
+K
+D
+E
+F
+G
+L
+M
+A
+L
+M
+C
+D
+E
+F
+G
+A
+A
+L
+M
+C
+D
+E
+F
+G
+H
+L
+M
+C
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+A
+L
+M
+A
+C
+L
+M
+A
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+D
+E
+F
+G
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+C
+B
+C
+D
+E
+F
+G
+L
+M
+B
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+A
+C
+D
+J
+K
+L
+M
+L
+M
+C
+C
+L
+M
+E
+F
+G
+H
+I
+J
+K
+A
+D
+E
+F
+G
+L
+M
+H
+I
+J
+K
+I
+J
+K
+A
+L
+M
+L
+M
+L
+M
+H
+I
+J
+K
+H
+I
+J
+K
+C
+L
+M
+L
+M
+C
+A
+C
+K
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+L
+M
+C
+L
+M
+H
+I
+J
+K
+L
+M
+L
+M
+B
+D
+E
+F
+G
+L
+M
+A
+D
+E
+F
+G
+H
+H
+I
+J
+K
+J
+K
+I
+J
+K
+C
+L
+M
+L
+M
+L
+M
+C
+A
+L
+M
+I
+J
+K
+L
+M
+H
+I
+J
+K
+L
+M
+D
+E
+F
+G
+B
+L
+M
+C
+D
+I
+J
+K
+B
+F
+G
+H
+I
+J
+K
+L
+M
+L
+M
+D
+E
+F
+G
+L
+M
+C
+D
+E
+F
+G
+L
+M
+C
+I
+J
+K
+A
+I
+J
+K
+L
+M
+L
+M
+H
+I
+J
+K
+L
+M
+L
+M
+H
+I
+A
+D
+E
+F
+G
+H
+I
+L
+M
+C
+L
+M
+L
+M
+L
+M
+B
+L
+M
+B
+D
+E
+F
+G
+L
+M
+A
+L
+M
+L
+M
+L
+M
+L
+M
+C
+L
+M
+L
+M
+L
+M
+L
+M
+A
+D
+E
+F
+G
+C
+D
+E
+F
+G
+L
+M
+C
+L
+M
+L
+M
+L
+M
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+H
+I
+J
+K
+A
+L
+M
+B
+L
+M
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+J
+K
+C
+L
+M
+L
+M
+A
+L
+M
+L
+M
+L
+M
+A
+B
+D
+E
+F
+G
+H
+I
+J
+K
+B
+L
+M
+C
+L
+M
+L
+M
+C
+D
+E
+F
+G
+H
+C
+L
+M
+A
+A
+L
+M
+L
+M
+D
+E
+F
+G
+A
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+C
+D
+E
+C
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+C
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+A
+C
+D
+E
+F
+G
+H
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+A
+L
+M
+L
+M
+L
+M
+E
+F
+G
+H
+L
+M
+B
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+A
+H
+I
+J
+K
+L
+M
+L
+M
+G
+H
+I
+J
+K
+L
+M
+H
+I
+J
+K
+A
+F
+G
+H
+I
+L
+M
+B
+L
+M
+C
+D
+E
+F
+G
+C
+D
+E
+F
+G
+H
+G
+H
+I
+J
+K
+B
+C
+D
+E
+F
+C
+C
+C
+D
+L
+M
+B
+C
+D
+E
+F
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+B
+A
+L
+M
+L
+M
+I
+J
+K
+C
+C
+D
+H
+I
+J
+K
+A
+C
+D
+E
+F
+G
+L
+M
+A
+D
+E
+F
+G
+H
+I
+J
+K
+C
+A
+B
+L
+M
+C
+D
+E
+F
+G
+I
+J
+K
+A
+L
+M
+D
+E
+F
+G
+B
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+A
+C
+D
+E
+F
+G
+H
+D
+E
+F
+G
+L
+M
+B
+B
+D
+E
+F
+G
+H
+I
+J
+K
+B
+C
+D
+E
+F
+G
+L
+M
+A
+L
+M
+L
+M
+B
+C
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+C
+D
+A
+E
+F
+G
+H
+B
+C
+B
+C
+D
+E
+F
+C
+D
+E
+F
+G
+L
+M
+H
+I
+J
+K
+L
+M
+B
+A
+B
+L
+M
+C
+D
+E
+F
+G
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+C
+H
+I
+J
+K
+C
+D
+E
+F
+G
+A
+L
+M
+B
+D
+E
+F
+G
+H
+I
+J
+K
+B
+B
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+C
+A
+C
+D
+E
+F
+G
+C
+D
+E
+F
+G
+L
+M
+L
+M
+H
+I
+J
+K
+J
+K
+B
+B
+L
+M
+L
+M
+B
+I
+J
+K
+C
+D
+E
+B
+B
+H
+I
+J
+K
+H
+I
+J
+K
+A
+D
+E
+F
+G
+C
+D
+E
+F
+G
+L
+M
+A
+H
+I
+J
+K
+B
+B
+D
+E
+F
+G
+B
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+B
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+L
+M
+B
+A
+B
+H
+I
+J
+K
+H
+I
+J
+K
+C
+D
+E
+F
+C
+I
+J
+K
+L
+M
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+H
+I
+J
+L
+M
+H
+I
+J
+K
+A
+C
+L
+M
+A
+L
+M
+C
+D
+E
+F
+B
+A
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+C
+D
+B
+B
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+L
+M
+D
+E
+F
+G
+H
+H
+I
+J
+K
+C
+D
+E
+F
+G
+B
+L
+M
+B
+H
+I
+J
+K
+L
+M
+L
+M
+H
+I
+J
+K
+G
+H
+I
+J
+K
+A
+H
+I
+J
+K
+L
+M
+G
+H
+I
+J
+K
+I
+J
+K
+L
+M
+A
+L
+M
+L
+M
+I
+J
+K
+L
+M
+C
+L
+M
+C
+L
+M
+E
+F
+G
+H
+C
+D
+D
+E
+F
+G
+L
+M
+B
+B
+C
+C
+L
+M
+L
+M
+C
+I
+J
+K
+B
+L
+M
+H
+I
+J
+K
+C
+H
+I
+J
+K
+L
+M
+C
+D
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+C
+B
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+H
+I
+J
+K
+L
+M
+G
+H
+I
+J
+K
+C
+B
+H
+I
+J
+K
+A
+C
+C
+D
+E
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+C
+D
+E
+F
+G
+C
+E
+F
+G
+H
+I
+J
+K
+B
+B
+H
+I
+J
+K
+L
+M
+A
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+C
+B
+B
+C
+D
+E
+F
+H
+I
+J
+K
+C
+D
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+B
+E
+F
+G
+H
+I
+J
+K
+A
+L
+M
+D
+E
+F
+G
+A
+D
+E
+F
+G
+H
+I
+J
+K
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+F
+G
+H
+I
+J
+K
+B
+G
+H
+I
+J
+K
+G
+H
+I
+J
+K
+H
+I
+J
+K
+I
+J
+K
+H
+I
+J
+K
+H
+I
+J
+K
+I
+J
+K
+C
+D
+E
+H
+I
+J
+K
+H
+I
+J
+K
+A
+A
+L
+M
+A
+G
+H
+I
+J
+K
+G
+H
+I
+J
+K
+C
+F
+G
+H
+E
+F
+G
+H
+I
+J
+K
+L
+M
+L
+M
+C
+D
+L
+M
+B
+L
+M
+I
+J
+K
+I
+J
+K
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+A
+L
+M
+C
+L
+M
+L
+M
+B
+C
+L
+M
+L
+M
+L
+M
+H
+I
+J
+K
+L
+M
+A
+L
+M
+L
+M
+C
+A
+L
+M
+L
+M
+I
+J
+K
+C
+D
+E
+L
+M
+L
+M
+D
+E
+F
+G
+H
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+L
+M
+D
+E
+F
+G
+E
+F
+G
+H
+I
+J
+D
+E
+F
+G
+H
+I
+J
+L
+M
+B
+C
+D
+E
+F
+G
+I
+J
+K
+B
+L
+M
+B
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+B
+L
+M
+L
+M
+H
+I
+J
+K
+K
+K
+L
+M
+L
+M
+A
+L
+M
+L
+M
+F
+G
+H
+I
+J
+K
+L
+M
+A
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+B
+L
+M
+L
+M
+L
+M
+L
+M
+K
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+B
+L
+M
+B
+A
+L
+M
+L
+M
+B
+L
+M
+B
+L
+M
+L
+M
+E
+F
+G
+H
+I
+J
+K
+B
+B
+B
+A
+A
+C
+L
+M
+B
+B
+L
+M
+B
+L
+M
+B
+B
+B
+C
+B
+L
+M
+A
+L
+M
+B
+C
+L
+M
+B
+C
+A
+C
+B
+B
+L
+M
+A
+L
+M
+B
+B
+C
+L
+M
+C
+B
+D
+E
+F
+G
+B
+L
+M
+B
+B
+B
+L
+M
+C
+B
+C
+L
+M
+C
+D
+E
+F
+G
+B
+C
+B
+L
+M
+B
+A
+B
+L
+M
+C
+D
+E
+F
+G
+A
+B
+C
+D
+E
+F
+G
+D
+E
+F
+G
+A
+D
+E
+F
+G
+H
+A
+B
+L
+M
+B
+B
+D
+E
+F
+G
+B
+B
+C
+D
+E
+F
+G
+B
+D
+E
+F
+G
+H
+I
+J
+K
+B
+B
+H
+I
+J
+K
+B
+A
+C
+D
+E
+B
+B
+D
+E
+F
+G
+A
+C
+D
+E
+F
+G
+C
+D
+E
+F
+G
+C
+A
+B
+B
+B
+B
+F
+G
+H
+I
+J
+K
+A
+C
+C
+D
+E
+D
+E
+F
+G
+H
+I
+J
+K
+B
+H
+I
+J
+K
+B
+B
+C
+D
+E
+F
+G
+B
+C
+D
+E
+F
+C
+B
+C
+C
+B
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+I
+J
+K
+B
+H
+I
+J
+K
+A
+D
+E
+F
+G
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+B
+H
+I
+J
+K
+B
+H
+I
+J
+K
+C
+B
+C
+C
+D
+E
+F
+G
+B
+B
+B
+B
+H
+I
+J
+K
+H
+I
+J
+K
+C
+D
+C
+D
+E
+F
+G
+C
+C
+D
+E
+C
+C
+C
+B
+D
+E
+F
+G
+H
+I
+J
+K
+B
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+B
+A
+B
+B
+D
+E
+F
+G
+D
+E
+F
+G
+C
+C
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+C
+H
+I
+J
+K
+B
+B
+H
+I
+J
+K
+B
+C
+D
+E
+F
+G
+H
+L
+M
+A
+C
+D
+E
+F
+G
+L
+M
+B
+D
+E
+F
+G
+H
+I
+J
+K
+B
+C
+B
+D
+E
+F
+G
+H
+I
+C
+D
+E
+C
+D
+E
+F
+G
+A
+H
+I
+J
+K
+B
+L
+M
+B
+L
+M
+H
+I
+J
+K
+A
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+F
+G
+H
+I
+J
+K
+B
+L
+M
+F
+G
+H
+L
+M
+B
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+C
+C
+A
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+B
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+L
+M
+A
+I
+J
+K
+B
+D
+E
+F
+G
+A
+L
+M
+G
+H
+I
+J
+K
+B
+L
+M
+C
+L
+M
+D
+E
+F
+G
+H
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+C
+D
+E
+F
+G
+H
+C
+B
+L
+M
+D
+E
+F
+G
+B
+L
+M
+C
+D
+E
+F
+G
+L
+M
+C
+D
+E
+F
+G
+C
+D
+E
+L
+M
+H
+I
+J
+K
+J
+K
+B
+L
+M
+B
+E
+F
+G
+H
+I
+J
+K
+I
+J
+K
+I
+J
+K
+H
+I
+J
+K
+C
+D
+E
+F
+G
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+H
+I
+J
+K
+C
+D
+E
+F
+G
+B
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+L
+M
+H
+I
+J
+K
+H
+I
+J
+K
+D
+E
+F
+G
+L
+M
+F
+G
+H
+L
+M
+C
+D
+E
+F
+G
+B
+C
+F
+G
+H
+I
+J
+K
+C
+L
+M
+B
+L
+M
+D
+E
+F
+G
+L
+M
+C
+H
+I
+J
+K
+A
+L
+M
+B
+H
+I
+J
+K
+L
+M
+H
+I
+J
+K
+L
+M
+C
+D
+E
+F
+G
+H
+H
+I
+J
+K
+L
+M
+H
+I
+J
+K
+L
+M
+L
+M
+A
+C
+L
+M
+I
+J
+K
+C
+L
+M
+H
+I
+J
+K
+L
+M
+H
+I
+J
+K
+C
+C
+L
+M
+B
+H
+I
+J
+K
+D
+E
+F
+G
+L
+M
+H
+I
+J
+K
+C
+D
+E
+F
+I
+J
+K
+A
+C
+D
+E
+F
+C
+D
+E
+F
+G
+H
+G
+H
+I
+J
+K
+C
+D
+E
+F
+B
+I
+J
+K
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+C
+H
+I
+J
+K
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+G
+H
+I
+J
+K
+H
+I
+J
+K
+D
+E
+F
+G
+C
+C
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+B
+D
+E
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+L
+M
+D
+E
+F
+G
+H
+I
+J
+L
+M
+L
+M
+F
+G
+C
+D
+E
+K
+D
+E
+F
+G
+H
+I
+J
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+C
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+D
+E
+F
+G
+L
+M
+L
+M
+L
+M
+B
+L
+M
+H
+I
+J
+K
+L
+M
+L
+M
+C
+D
+E
+F
+A
+L
+M
+H
+I
+J
+K
+H
+I
+J
+K
+I
+J
+K
+C
+L
+M
+B
+L
+M
+A
+L
+M
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+L
+M
+C
+A
+L
+M
+L
+M
+K
+B
+B
+L
+M
+I
+J
+K
+C
+D
+E
+L
+M
+D
+E
+F
+G
+H
+L
+M
+D
+E
+F
+G
+B
+D
+E
+F
+G
+C
+D
+E
+F
+G
+L
+M
+C
+D
+E
+F
+G
+L
+M
+C
+D
+E
+C
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+B
+H
+I
+J
+K
+A
+F
+G
+H
+I
+J
+K
+C
+C
+H
+I
+J
+K
+C
+A
+D
+E
+F
+G
+C
+C
+D
+E
+F
+G
+H
+I
+J
+K
+G
+A
+D
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+C
+D
+E
+D
+E
+F
+G
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+I
+J
+K
+L
+M
+H
+I
+J
+K
+B
+C
+A
+H
+I
+J
+K
+F
+G
+H
+I
+J
+K
+L
+M
+D
+E
+F
+G
+H
+I
+C
+D
+H
+I
+J
+K
+A
+G
+H
+I
+J
+K
+C
+L
+M
+H
+I
+J
+K
+A
+L
+M
+H
+I
+J
+K
+H
+I
+J
+K
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+L
+M
+L
+M
+D
+E
+F
+G
+H
+J
+K
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+H
+I
+J
+K
+C
+A
+L
+M
+L
+M
+I
+J
+K
+C
+D
+E
+F
+A
+L
+M
+L
+M
+L
+M
+L
+M
+C
+D
+E
+C
+B
+C
+L
+M
+A
+L
+M
+F
+G
+H
+C
+D
+E
+F
+G
+E
+F
+G
+H
+L
+M
+L
+M
+L
+M
+D
+E
+F
+G
+L
+M
+I
+J
+K
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+L
+M
+B
+D
+E
+F
+G
+H
+L
+M
+H
+I
+C
+D
+E
+F
+G
+H
+B
+A
+C
+D
+E
+F
+G
+L
+M
+G
+H
+I
+J
+I
+J
+K
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+J
+K
+H
+I
+J
+K
+I
+J
+K
+K
+L
+M
+H
+I
+J
+K
+I
+J
+K
+L
+M
+C
+D
+E
+L
+M
+L
+M
+C
+H
+I
+J
+K
+A
+L
+M
+C
+D
+E
+F
+G
+H
+I
+J
+K
+C
+L
+M
+B
+L
+M
+L
+M
+A
+B
+L
+M
+C
+D
+F
+G
+H
+B
+L
+M
+L
+M
+L
+M
+D
+E
+F
+G
+H
+I
+J
+K
+C
+I
+J
+K
+B
+B
+L
+M
+L
+M
+L
+M
+B
+C
+D
+E
+F
+B
+C
+C
+L
+M
+L
+M
+B
+B
+L
+M
+B
+B
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+B
+B
+B
+L
+M
+L
+M
+L
+M
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+B
+B
+D
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+L
+M
+B
+B
+G
+H
+I
+J
+K
+B
+B
+D
+E
+F
+G
+H
+I
+J
+K
+B
+L
+M
+C
+D
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+L
+M
+D
+E
+H
+I
+J
+K
+B
+C
+L
+M
+F
+G
+E
+F
+G
+B
+B
+L
+M
+C
+D
+E
+F
+H
+L
+M
+C
+D
+E
+F
+L
+M
+H
+I
+J
+K
+I
+J
+K
+L
+M
+G
+H
+I
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+B
+J
+K
+L
+M
+L
+M
+C
+G
+H
+I
+J
+K
+L
+M
+L
+M
+L
+M
+C
+C
+C
+D
+B
+B
+L
+M
+D
+E
+F
+G
+C
+D
+C
+L
+M
+B
+D
+E
+F
+G
+H
+I
+D
+E
+F
+G
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+H
+I
+J
+E
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+D
+E
+F
+G
+H
+C
+C
+D
+E
+F
+G
+D
+E
+F
+G
+D
+E
+F
+G
+H
+C
+C
+D
+E
+F
+G
+C
+D
+E
+F
+G
+C
+K
+I
+J
+K
+H
+I
+J
+K
+H
+I
+J
+K
+C
+E
+F
+G
+H
+I
+J
+K
+C
+D
+E
+F
+G
+I
+J
+K
+H
+I
+J
+K
+J
+K
+D
+E
+F
+G
+D
+E
+F
+G
+H
+C
+D
+E
+H
+I
+J
+K
+F
+G
+H
+I
+J
+K
+H
+I
+J
+K
+H
+I
+J
+K
+D
+E
+F
+G
+L
+M
+I
+J
+K
+L
+M
+L
+M
+L
+M
+L
+M
+C
+H
+I
+J
+K
+L
+M
+L
+M
+C
+L
+M
+L
+M
+L
+M
+C
+D
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+C
+D
+E
+F
+E
+F
+G
+H
+L
+M
+L
+M
+L
+M
+C
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+I
+J
+K
+H
+I
+J
+K
+C
+C
+D
+E
+F
+G
+G
+H
+I
+J
+K
+H
+I
+J
+K
+C
+H
+I
+J
+K
+D
+E
+F
+G
+D
+E
+F
+G
+H
+I
+J
+K
+H
+L
+M
+I
+J
+K
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+L
+M
+
+============== SV-Sim ===============
+nqubits:28, ngates:36034, sim_gates:6117, ngpus:512, comp:287978.407 ms, comm:0.000 ms, sim:287978.407 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286737.657 ms, comm:0.000 ms, sim:286737.657 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288110.191 ms, comm:0.000 ms, sim:288110.191 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287062.975 ms, comm:0.000 ms, sim:287062.975 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288499.718 ms, comm:0.000 ms, sim:288499.718 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287722.246 ms, comm:0.000 ms, sim:287722.246 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288707.238 ms, comm:0.000 ms, sim:288707.238 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287892.494 ms, comm:0.000 ms, sim:287892.494 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288550.701 ms, comm:0.000 ms, sim:288550.701 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287754.055 ms, comm:0.000 ms, sim:287754.055 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288820.573 ms, comm:0.000 ms, sim:288820.573 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287758.725 ms, comm:0.000 ms, sim:287758.725 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288063.648 ms, comm:0.000 ms, sim:288063.648 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286974.317 ms, comm:0.000 ms, sim:286974.317 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288208.678 ms, comm:0.000 ms, sim:288208.678 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286839.245 ms, comm:0.000 ms, sim:286839.245 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288034.334 ms, comm:0.000 ms, sim:288034.334 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286958.922 ms, comm:0.000 ms, sim:286958.922 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288233.193 ms, comm:0.000 ms, sim:288233.193 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286905.999 ms, comm:0.000 ms, sim:286905.999 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288752.499 ms, comm:0.000 ms, sim:288752.499 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287849.092 ms, comm:0.000 ms, sim:287849.092 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288878.006 ms, comm:0.000 ms, sim:288878.006 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287931.843 ms, comm:0.000 ms, sim:287931.843 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288482.109 ms, comm:0.000 ms, sim:288482.109 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287800.952 ms, comm:0.000 ms, sim:287800.952 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288724.546 ms, comm:0.000 ms, sim:288724.546 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287896.668 ms, comm:0.000 ms, sim:287896.668 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288076.078 ms, comm:0.000 ms, sim:288076.078 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286760.473 ms, comm:0.000 ms, sim:286760.473 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288268.584 ms, comm:0.000 ms, sim:288268.584 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287113.750 ms, comm:0.000 ms, sim:287113.750 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:287945.206 ms, comm:0.000 ms, sim:287945.206 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286827.556 ms, comm:0.000 ms, sim:286827.556 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288248.642 ms, comm:0.000 ms, sim:288248.642 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286895.291 ms, comm:0.000 ms, sim:286895.291 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288520.807 ms, comm:0.000 ms, sim:288520.807 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287671.288 ms, comm:0.000 ms, sim:287671.288 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288674.361 ms, comm:0.000 ms, sim:288674.361 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287656.362 ms, comm:0.000 ms, sim:287656.362 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288594.841 ms, comm:0.000 ms, sim:288594.841 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287890.201 ms, comm:0.000 ms, sim:287890.201 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288696.076 ms, comm:0.000 ms, sim:288696.076 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287765.529 ms, comm:0.000 ms, sim:287765.529 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:287999.552 ms, comm:0.000 ms, sim:287999.552 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286735.081 ms, comm:0.000 ms, sim:286735.081 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288131.486 ms, comm:0.000 ms, sim:288131.486 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287022.523 ms, comm:0.000 ms, sim:287022.523 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:287848.396 ms, comm:0.000 ms, sim:287848.396 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286921.071 ms, comm:0.000 ms, sim:286921.071 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288075.044 ms, comm:0.000 ms, sim:288075.044 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286622.954 ms, comm:0.000 ms, sim:286622.954 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288621.901 ms, comm:0.000 ms, sim:288621.901 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287706.087 ms, comm:0.000 ms, sim:287706.087 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288897.638 ms, comm:0.000 ms, sim:288897.638 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287795.356 ms, comm:0.000 ms, sim:287795.356 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288411.216 ms, comm:0.000 ms, sim:288411.216 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287725.905 ms, comm:0.000 ms, sim:287725.905 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288701.671 ms, comm:0.000 ms, sim:288701.671 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287761.246 ms, comm:0.000 ms, sim:287761.246 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:287865.137 ms, comm:0.000 ms, sim:287865.137 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286631.923 ms, comm:0.000 ms, sim:286631.923 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288628.305 ms, comm:0.000 ms, sim:288628.305 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287023.086 ms, comm:0.000 ms, sim:287023.086 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288178.943 ms, comm:0.000 ms, sim:288178.943 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286888.698 ms, comm:0.000 ms, sim:286888.698 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288230.981 ms, comm:0.000 ms, sim:288230.981 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:286873.662 ms, comm:0.000 ms, sim:286873.662 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:288788.177 ms, comm:0.000 ms, sim:288788.177 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287885.670 ms, comm:0.000 ms, sim:287885.670 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36025, sim_gates:6108, ngpus:512, comp:288671.185 ms, comm:0.000 ms, sim:288671.185 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287655.893 ms, comm:0.000 ms, sim:287655.893 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:36024, sim_gates:6108, ngpus:512, comp:289040.252 ms, comm:0.000 ms, sim:289040.252 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+============== SV-Sim ===============
+nqubits:28, ngates:1, sim_gates:1, ngpus:512, comp:287779.855 ms, comm:0.000 ms, sim:287779.855 ms, mem:16.000 MB, mem_per_gpu:16.000 MB
+=====================================
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@batch5>
+Subject: Job 2325451: <Not_Specified> in cluster <summit> Exited
+
+Job <Not_Specified> was submitted from host <login3> by user <angli> in cluster <summit> at Mon Aug  8 13:45:51 2022
+Job was executed on host(s) <1*batch5>, in queue <batch>, as user <angli> in cluster <summit> at Tue Aug  9 11:26:25 2022
+                            <42*d30n07>
+                            <42*d30n08>
+                            <42*d30n09>
+                            <42*d30n10>
+                            <42*d30n11>
+                            <42*d30n12>
+                            <42*d30n13>
+                            <42*d30n14>
+                            <42*d30n15>
+                            <42*d30n16>
+                            <42*d30n17>
+                            <42*d30n18>
+                            <42*d31n01>
+                            <42*d31n02>
+                            <42*d31n03>
+                            <42*d31n04>
+                            <42*d31n05>
+                            <42*d31n06>
+                            <42*d31n07>
+                            <42*d31n08>
+                            <42*d31n09>
+                            <42*d31n10>
+                            <42*d31n11>
+                            <42*d31n12>
+                            <42*d31n13>
+                            <42*d31n14>
+                            <42*d31n15>
+                            <42*d31n16>
+                            <42*d31n17>
+                            <42*d31n18>
+                            <42*d32n01>
+                            <42*d32n02>
+                            <42*d32n03>
+                            <42*d32n04>
+                            <42*d32n05>
+                            <42*d32n06>
+                            <42*d32n07>
+                            <42*d32n08>
+                            <42*d32n09>
+                            <42*d32n10>
+                            <42*d32n11>
+                            <42*d32n12>
+                            <42*d32n13>
+                            <42*d32n14>
+                            <42*d32n15>
+                            <42*d32n16>
+                            <42*d32n17>
+                            <42*d32n18>
+                            <42*d34n10>
+                            <42*d34n11>
+                            <42*d34n12>
+                            <42*d34n13>
+                            <42*d34n14>
+                            <42*d34n15>
+                            <42*d34n16>
+                            <42*d34n17>
+                            <42*d34n18>
+                            <42*d34n09>
+                            <42*d34n08>
+                            <42*d34n07>
+                            <42*d34n05>
+                            <42*d34n04>
+                            <42*d34n02>
+                            <42*d34n01>
+                            <42*d35n02>
+                            <42*d35n03>
+                            <42*d35n05>
+                            <42*d35n06>
+                            <42*d35n07>
+                            <42*d35n08>
+                            <42*d35n09>
+                            <42*d35n10>
+                            <42*d35n11>
+                            <42*d35n12>
+                            <42*d35n13>
+                            <42*d35n14>
+                            <42*d35n15>
+                            <42*d35n16>
+                            <42*d35n17>
+                            <42*d35n18>
+                            <42*d36n01>
+                            <42*d36n02>
+                            <42*d36n03>
+                            <42*d36n04>
+                            <42*d36n05>
+                            <42*d36n06>
+</ccs/home/angli> was used as the home directory.
+</ccs/home/angli/sc22/SVFinal/qsharp/qpe> was used as the working directory.
+Started at Tue Aug  9 11:26:25 2022
+Terminated at Tue Aug  9 17:26:58 2022
+Results reported at Tue Aug  9 17:26:58 2022
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <err_cc.txt> for stderr output of this job.
+

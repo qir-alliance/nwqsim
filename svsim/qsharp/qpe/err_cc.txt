@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+There are messages associated with the following module(s):
+-------------------------------------------------------------------------------
+
+cuda/11.4.0:
+  This modulefile is provided for testing purposes only. If you encounter
+  issues, please report them to help@olcf.ornl.gov.
+
+-------------------------------------------------------------------------------
+
+User defined signal 2
+ERROR:  One or more process (first noticed rank 511) terminated with signal 12

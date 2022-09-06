@@ -1,0 +1,47 @@
+NVCC = /sw/summit/cuda/11.4.0/bin/nvcc
+NVCC_FLAGS = -O3 -arch=sm_70 -m64 -std=c++14 -rdc=true --compiler-options -fPIC -ccbin mpicxx
+NVCC_LIBS = -lm -lnvshmem -I/ccs/home/angli/nvshmem/nvshmem_src_2.2.1-0/build/include -L/ccs/home/angli/nvshmem/nvshmem_src_2.2.1-0/build/lib -lcuda
+CC_FLAGS = -O3 -m64 -std=c++14 -fPIC -fopenmp
+SCALE = -D USE_MPI
+
+all: adder_n10 bv_n15 cc_n15 dnn_n16 ising_n15 multiplier_n15 qf21_n15 qft_n15 qpe_n9 sat_n15 seca_n15 vqe_uccsd_n8
+
+adder_n10: adder_n10.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU adder_n10.cu -o $@
+
+bv_n15: bv_n15.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU bv_n15.cu -o $@
+
+cc_n15: cc_n15.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU cc_n15.cu -o $@
+
+dnn_n16: dnn_n16.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU dnn_n16.cu -o $@
+
+ising_n15: ising_n15.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU ising_n15.cu -o $@
+
+multiplier_n15: multiplier_n15.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU multiplier_n15.cu -o $@
+
+qf21_n15: qf21_n15.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU qf21_n15.cu -o $@
+
+qft_n15: qft_n15.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU qft_n15.cu -o $@
+
+qpe_n9: qpe_n9.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU qpe_n9.cu -o $@
+
+sat_n15: sat_n15.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU sat_n15.cu -o $@
+
+seca_n15: seca_n15.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU seca_n15.cu -o $@
+
+vqe_uccsd_n8: vqe_uccsd_n8.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h 
+	$(NVCC) -ccbin mpicxx -lnvshmem $(NVCC_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU vqe_uccsd_n8.cu -o $@
+
+clean:
+	rm adder_n10 bv_n15 cc_n15 dnn_n16 ising_n15 multiplier_n15 qf21_n15 qft_n15 qpe_n9 sat_n15 seca_n15 vqe_uccsd_n8
+
