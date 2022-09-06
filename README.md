@@ -1,19 +1,32 @@
 # NWQSim: Northwest Quantum Circuit Simulation Environment 
 
-A Quantum Simulation Environment based on PGAS model for single-GPU/CPU, single-node-multi-GPUs/CPUs and multi-nodes GPU/CPU clusters for state-vector and density-matrix simulation. It supports Intel/AMD/IBM CPUs, NVIDIA/AMD GPUs and Xeon-Phi. It has been tested on OLCF Summit and Spock, ALCF Theta, NERSC Cori, DGX-2 and DGX-A100. Please see our SuperComputing (SC-21) [paper](doc/paper_sc21.pdf) for details. This is the version specially optimized for QIR integration. 
+A Quantum System Simulation Environment on classical multi-node, multi-CPU/GPU heterogeneous HPC systems. It currently includes a state-vector simulator SV-Sim ([SC'21](doc/paper_sc21) for high-performance ideal simulation, and a density matrix simulator DM-Sim ([SC'20](doc/paper_sc20) for noise-aware simulation. It supports C++, Python, Q#/QIR, Qiskit, QASM, XACC as the front-ends, and X86/PPC CPU, NVIDIA/AMD GPU as the backends, see below:
 
-![alt text](img/structure.png)
+![alt text](img/nwqsim.png)
+
 
 ## Current version
 
-Latest version: **1.0**
+Latest version: **2.0**
 
-SV-Sim is under active development. Please propose any bugs and suggest any features. We will continuously add new features. Questions and suggestions are welcome.
-
+NWQSim is under active development. Please raise any bugs and suggest features. 
 
 ## About SV-Sim
 
-SV-Sim and DM-Sim are C++/CUDA/HIP implementation for simulating generic quantum circuits through state-vector and density-matrix (with noise) on single CPU/GPU/Xeon-Phi, single-node-multi-CPUs/GPUs, and multi-node CPU/GPU cluster. It provides Python/C++ interface. It supports Q#/QIR as the front-end. It relies on PGAS-based SHMEM model for communication, this includes (1) GPUDirect Peer-to-Peer for single-node multi-GPU (NVIDIA and AMD GPUs) communication; (2) OpenSHMEM for CPU multi-node communication; (3) NVSHMEM (ROC_SHMEM) for GPU multi-node communication. Please see our Supercomputing-21[paper](doc/paper_sc21.pdf) for details. 
+SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It supports the following quantum gates based on QASM-2, QASM-3, and QIR:
+
+
+|  Gate  | Format | Meaning |
+|:-----: | ------ | ------- |
+| X | X(q0) | Pauli-X gate |
+
+
+
+
+
+
+
+C++/CUDA/HIP implementation for simulating generic quantum circuits through state-vector and density-matrix (with noise) on single CPU/GPU/Xeon-Phi, single-node-multi-CPUs/GPUs, and multi-node CPU/GPU cluster. It provides Python/C++ interface. It supports Q#/QIR as the front-end. It relies on PGAS-based SHMEM model for communication, this includes (1) GPUDirect Peer-to-Peer for single-node multi-GPU (NVIDIA and AMD GPUs) communication; (2) OpenSHMEM for CPU multi-node communication; (3) NVSHMEM (ROC_SHMEM) for GPU multi-node communication. Please see our Supercomputing-21[paper](doc/paper_sc21.pdf) for details. 
 
 This repository includes a specialized implementation for Q# [QIR Runtime](https://github.com/microsoft/qsharp-runtime). We realize the multi-controlled gates, exponential gates, and intermediate measurement. We include dozens of applications from the [QDK samples](https://github.com/microsoft/Quantum). 
 
