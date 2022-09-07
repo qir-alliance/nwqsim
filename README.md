@@ -45,7 +45,13 @@ SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit sim
 | CRX | CRX(theta, ctrl, q) | Controlled RX gate on qubit q|
 | CRY | CRY(theta, ctrl, q) | Controlled RY gate on qubit q|
 | CRZ | CRZ(theta, ctrl, q) | Controlled RZ gate on qubit q|
-
+| CSX | CSX(ctrl, q) | Controlled SX gate on qubit q|
+| CP  | CP(theta, ctrl, q) | Controlled P gate on qubit q|
+| CU  | CU(theta, phi, lambda, gamma, ctrl, q) | generic Controlled U gate, see Qiskit CU gate | 
+| SWAP | SWAP(ctrl, q) | Swap gate on ctrl and q |
+| M  | M(q) | measure qubit q on pauli-Z basis |
+| MA | MA(n) | sample all qubits for n shots all-together |
+| RESET  | RESET(q) | reset qubit q  to zero state | 
 
 
 
