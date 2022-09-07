@@ -13,7 +13,7 @@ NWQSim is under active development. Please raise any bugs and suggest features.
 
 ## About SV-Sim
 
-SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It supports the following quantum gates based on QASM-2, QASM-3, and QIR:
+SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It supports the following quantum gates as the interface based on QASM-2, QASM-3, and QIR:
 
 
 |  Gate  | Format | Meaning |
@@ -53,6 +53,12 @@ SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit sim
 | MA | MA(n) | sample all qubits for n shots all-together |
 | RESET  | RESET(q) | reset qubit q  to zero state | 
 
+
+Internally, it supports arbitrary 1 or 2 qubit gates:
+|  Gate  | Format | Meaning |
+|:-----: | ------ | ------- |
+| C1 | C1(a0-a3)  | Arbitrary 1-qubit gate |
+| C2 | C2(a0-a15) | Arbitrary 2-qubit gate | 
 
 
 C++/CUDA/HIP implementation for simulating generic quantum circuits through state-vector and density-matrix (with noise) on single CPU/GPU/Xeon-Phi, single-node-multi-CPUs/GPUs, and multi-node CPU/GPU cluster. It provides Python/C++ interface. It supports Q#/QIR as the front-end. It relies on PGAS-based SHMEM model for communication, this includes (1) GPUDirect Peer-to-Peer for single-node multi-GPU (NVIDIA and AMD GPUs) communication; (2) OpenSHMEM for CPU multi-node communication; (3) NVSHMEM (ROC_SHMEM) for GPU multi-node communication. Please see our Supercomputing-21[paper](doc/paper_sc21.pdf) for details. 
