@@ -1,6 +1,6 @@
 # NWQSim: Northwest Quantum Circuit Simulation Environment 
 
-A Quantum System Simulation Environment on classical multi-node, multi-CPU/GPU heterogeneous HPC systems. It currently includes a state-vector simulator SV-Sim ([SC'21](doc/svsim_sc21) for high-performance ideal simulation, and a density matrix simulator DM-Sim ([SC'20](doc/dmsim_sc20) for noise-aware simulation. It supports C++, Python, Q#/QIR, Qiskit, QASM, XACC as the front-ends, and X86/PPC CPU, NVIDIA/AMD GPU as the backends, see below:
+A Quantum System Simulation Environment on classical multi-node, multi-CPU/GPU heterogeneous HPC systems. It currently includes a state-vector simulator SV-Sim ([SC'21](doc/svsim_sc21)) for high-performance ideal simulation, and a density matrix simulator DM-Sim ([SC'20](doc/dmsim_sc20)) for noise-aware simulation. It supports C++, Python, Q#/QIR, Qiskit, QASM, XACC as the front-ends, and X86/PPC CPU, NVIDIA/AMD GPU as the backends, see below:
 
 ![alt text](img/nwqsim.png)
 
@@ -64,7 +64,7 @@ Internally, it supports arbitrary 1 or 2 qubit gates for optimization and extens
 | C1 | C1(a0-a3)  | Arbitrary 1-qubit gate |
 | C2 | C2(a0-a15) | Arbitrary 2-qubit gate | 
 
-## Prerequisite
+### Prerequisite
 SV-Sim generally only requires a C++ compiler. However, in order to build for GPUs or scaling (up and out) or using other APIs (python, qir, qiskit), we need the following libraries:
 
 |  Dependency  | Version | Comments |
@@ -81,7 +81,7 @@ SV-Sim generally only requires a C++ compiler. However, in order to build for GP
 |   Qiskit     | 0.20.0  | Qiskit interface only |
 |  Q# runtime  | Local   | Q#/QIR interface only |
 
-## Configure and run on ORNL Summit Supercomputer
+### Configure and run on ORNL Summit Supercomputer
 
 ```
 $ git clone https://github.com/qir-alliance/nwqsim.git 
@@ -104,7 +104,7 @@ $ bsub -Is -W 20 -nnodes 2 -P CSCXXX  $SHELL
 $ ./run_all
 ```
 
-## Configure and run on NERSC Perlmutter Supercomputer
+### Configure and run on NERSC Perlmutter Supercomputer
 ```
 $ git clone https://github.com/qir-alliance/nwqsim.git 
 $ cd nwqsim/env
@@ -132,7 +132,7 @@ We use an array to store the internal gate representations and perform density m
 
 ![alt text](img/dmsim_pip.png)
 
-### Noisy Simulation for IBMQ devices
+#### Noisy Simulation for IBMQ devices
 DM-Sim supports the following basis quantum gates for IBMQ devices:
 
 |  Gate  | Format | Meaning |
@@ -144,7 +144,7 @@ DM-Sim supports the following basis quantum gates for IBMQ devices:
 | CX | CX(ctrl, q) | CNOT or Controlled X gate on qubit q|
 
 
-### Noisy Simulation for Rigetti devices
+#### Noisy Simulation for Rigetti devices
 
 |  Gate  | Format | Meaning |
 |:-----: | ------ | ------- |
@@ -152,7 +152,7 @@ DM-Sim supports the following basis quantum gates for IBMQ devices:
 | RZ  | | |
 | CX  | | |
 
-### Noisy Simulation for IonQ devices
+#### Noisy Simulation for IonQ devices
 
 |  Gate  | Format | Meaning |
 |:-----: | ------ | ------- |
@@ -162,7 +162,7 @@ DM-Sim supports the following basis quantum gates for IBMQ devices:
 | MS  | | |
 
 
-### Noisy Simulation for Quantinuum devices
+#### Noisy Simulation for Quantinuum devices
 |  Gate  | Format | Meaning |
 |:-----: | ------ | ------- |
 | RX  | | |
@@ -177,7 +177,7 @@ Internally, it supports arbitrary 1 or 2 qubit gates for optimization and extens
 | C4 | C4(array of 0-255) | Arbitrary density-matrix 2-qubit gate | 
 
 
-## Prerequisite
+### Prerequisite
 DM-Sim generally only requires a C++ compiler. However, in order to build for GPUs or scaling (up and out) or using other APIs (python, qir, qiskit), we need the following libraries:
 
 |  Dependency  | Version | Comments |
@@ -194,7 +194,7 @@ DM-Sim generally only requires a C++ compiler. However, in order to build for GP
 |   Qiskit     | 0.20.0  | Qiskit interface only |
 |  Q# runtime  | Local   | Q#/QIR interface only |
 
-## Configure and run on ORNL Summit Supercomputer
+### Configure and run on ORNL Summit Supercomputer
 
 ```
 $ git clone https://github.com/qir-alliance/nwqsim.git 
@@ -217,7 +217,7 @@ $ bsub -Is -W 20 -nnodes 2 -P CSCXXX  $SHELL
 $ ./run_all
 ```
 
-## Configure and run on NERSC Perlmutter Supercomputer
+### Configure and run on NERSC Perlmutter Supercomputer
 ```
 $ git clone https://github.com/qir-alliance/nwqsim.git 
 $ cd nwqsim/env
