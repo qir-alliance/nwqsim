@@ -37,7 +37,7 @@ SV-Sim supports the following quantum gates as the interface based on QASM-2, QA
 | RY | RY(theta, q) | Rotate around Y axis for qubit q |
 | RZ | RZ(theta, q) | Rotate around Z axis for qubit q |
 | P  | P(theta, q)  | Phase gate on qubit q as defined by Qiskit | 
-| U  | U(theta, phi, lambda, q) | generic singl-qubit rotation gate with 3 Euler angles, see QASM2 | 
+| U  | U(theta, phi, lamb, q) | generic singl-qubit rotation gate with 3 Euler angles, see QASM2 | 
 | CX | CX(ctrl, q) | CNOT or Controlled X gate on qubit q|
 | CY | CY(ctrl, q) | Controlled Y gate on qubit q|
 | CZ | CZ(ctrl, q) | Controlled Z gate on qubit q|
@@ -51,7 +51,7 @@ SV-Sim supports the following quantum gates as the interface based on QASM-2, QA
 | CRZ | CRZ(theta, ctrl, q) | Controlled RZ gate on qubit q|
 | CSX | CSX(ctrl, q) | Controlled SX gate on qubit q|
 | CP  | CP(theta, ctrl, q) | Controlled P gate on qubit q|
-| CU  | CU(theta, phi, lambda, gamma, ctrl, q) | generic Controlled U gate, see Qiskit CU gate | 
+| CU  | CU(theta, phi, lamb, gamma, ctrl, q) | generic Controlled U gate, see Qiskit CU gate | 
 | SWAP | SWAP(ctrl, q) | Swap gate on ctrl and q |
 | M  | M(q) | measure qubit q on pauli-Z basis |
 | MA | MA(n) | sample all qubits for n shots all-together |
