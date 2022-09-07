@@ -244,9 +244,9 @@ $ ./run_all
 
 #### [Ang Li](http://www.angliphd.com/), Senior Computer Scientist, Pacific Northwest National Laboratory (PNNL)
 
-Additionally, the following people contribute the project:
+Additionally, the following folks contribute the project:
 
- - Sriram Krishnamoorthy, Pacific Northwest National Laboratory (Now in Google)
+ - Sriram Krishnamoorthy, Pacific Northwest National Laboratory 
  - Bo Fang, Pacific Northwest National Laboratory
  - Muqing Zheng, Lehigh University and Pacific Northwest National Laboratory
  - Cassandra Granade, Microsoft
@@ -257,6 +257,7 @@ Additionally, the following people contribute the project:
  - Guen Prawiroatmodjo, Microsoft
  - Alan Geller, Microsoft
  - Samuel Stein, Pacific Northwest National Laboratory
+ - Thien Nguyen, Oak Ridge National Laboratory
 
 
 
