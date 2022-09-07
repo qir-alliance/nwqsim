@@ -18,23 +18,33 @@ SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit sim
 
 |  Gate  | Format | Meaning |
 |:-----: | ------ | ------- |
-| X | X(q0) | Pauli-X gate on qubit 0 |
-| Y | Y(q0) | Pauli-Y gate on qubit 0 |
-| Z | Z(q0) | Pauli-Z gate on qubit 0 |
-| H | H(q0) | Clifford Hadamard gate on qubit 0 |
-| S | S(q0) | Clifford sqrt(Z) phase gate on qubit 0 |
-| SDG | SDG(q0) | Clifford inverse of sqrt(Z) on qubit 0 |
-| T | T(q0) | sqrt(S) phase gate on qubit 0 |
-| TDG | TDG(q0) | Inverst of sqrt(S) on qubit 0 |
-| ID | ID(q0) | Identiy gate on qubit 0 |
-| SX | SX(q0) | sqrt(X) gate on qubit 0, a basis gate for IBMQ |
-| RI | RI(theta, q0) | Global phase gate, U(0,0,a) in QASM3 or RI in Q#|
-| RX | RX(theta, q0) | Rotate around X axis |
-| RY | RY(theta, q0) | Rotate around Y axis |
-| RZ | RZ(theta, q0) | Rotate around Z axis |
-| P  | P(theta, q0)  | Phase gate as defined by Qiskit | 
-| U  | U(theta, phi, lambda, q0) | generic singl-qubit rotation gate with 3 Euler angles, see QASM | 
-
+| X | X(q) | Pauli-X gate on qubit q |
+| Y | Y(q) | Pauli-Y gate on qubit q |
+| Z | Z(q) | Pauli-Z gate on qubit q |
+| H | H(q) | Clifford Hadamard gate on qubit q |
+| S | S(q) | Clifford sqrt(Z) phase gate on qubit q |
+| SDG | SDG(q) | Clifford inverse of sqrt(Z) on qubit q |
+| T | T(q) | sqrt(S) phase gate on qubit q |
+| TDG | TDG(q) | Inverst of sqrt(S) on qubit q |
+| ID | ID(q) | Identiy gate on qubit q |
+| SX | SX(q) | sqrt(X) gate on qubit q, a basis gate for IBMQ |
+| RI | RI(theta, q) | Global phase gate, U(0,0,a) in QASM3 or RI in Q#|
+| RX | RX(theta, q) | Rotate around X axis for qubit q |
+| RY | RY(theta, q) | Rotate around Y axis for qubit q |
+| RZ | RZ(theta, q) | Rotate around Z axis for qubit q |
+| P  | P(theta, q)  | Phase gate on qubit q as defined by Qiskit | 
+| U  | U(theta, phi, lambda, q) | generic singl-qubit rotation gate with 3 Euler angles, see QASM2 | 
+| CX | CX(ctrl, q) | CNOT or Controlled X gate on qubit q|
+| CY | CY(ctrl, q) | Controlled Y gate on qubit q|
+| CZ | CZ(ctrl, q) | Controlled Z gate on qubit q|
+| CH | CH(ctrl, q) | Controlled H gate on qubit q|
+| CS | CS(ctrl, q) | Controlled S gate on qubit q|
+| CSDG | CSDG(ctrl, q) | Controlled SDG gate on qubit q|
+| CT | CT(ctrl, q) | Controlled T gate on qubit q|
+| CTDG | CTDG(ctrl, q) | Controlled TDG gate on qubit q|
+| CRX | CRX(theta, ctrl, q) | Controlled RX gate on qubit q|
+| CRY | CRY(theta, ctrl, q) | Controlled RY gate on qubit q|
+| CRZ | CRZ(theta, ctrl, q) | Controlled RZ gate on qubit q|
 
 
 
