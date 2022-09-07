@@ -13,7 +13,7 @@ NWQSim is under active development. Please raise any bugs and suggest features.
 
 ## About SV-Sim
 
-SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. 
+SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It assumes qubits are all-to-all connected unless the input circuits are with respect to circuit topology. We use an array to store the internal gate representations and perform gate fusion for advanced performance.  
 
 ![alt text](img/svsim_pip.png)
 
@@ -93,8 +93,92 @@ $ source setup_summit.sh
 $ cd ../qasm/ibmq_bench/
 $ vim Makefile
 ```
+You need to update the Makefile here, mainly the path to NVSHMEM, the GPU arch number, and the project number in run_all.lsf
+```
+$ make -j 8
+$ bsub run_all.lsf
+```
+Alternatively, you can allocate an interactive job and execute
+```
+$ bsub -Is -W 20 -nnodes 2 -P CSCXXX  $SHELL
+$ ./run_all
+```
+
+## Configure and run on NERSC Perlmutter Supercomputer
+```
+$ git clone https://github.com/qir-alliance/nwqsim.git 
+$ cd nwqsim/env
+```
+You need to update the env file “setup_perlmutter.sh”, specify the nvshmem path at the end of the LD_LIBRARY_PATH. If you use Q#/QIR, you need to configure the qsharp runtime paths
+```
+$ source setup_perlmutter.sh
+$ cd ../svsim/qasm/ibmq_bench/
+$ vim Makefile
+```
 You need to update the Makefile here, mainly the path to NVSHMEM.
-You also need to update the project number in run_all.lsf
+```
+$ make -j 8
+```
+Alternatively, you can allocate an interactive job and execute
+```
+$ ./run_all
+```
+
+
+## About DM-Sim
+
+DM-Sim is implemented in C++/CUDA/HIP for general density-matrix quantum circuit simulation with noise. It needs to load backend device calibration data (including topology, T1, T2, SPAM, etc.) as a json file for runtime configuration to the simulator instance.  
+We use an array to store the internal gate representations and perform density matrix gate fusion (with more restrictions compared to state-vector) for advanced performance.  
+
+![alt text](img/dmsim_pip.png)
+
+DM-Sim supports the following basis quantum gates for IBMQ devices:
+
+|  Gate  | Format | Meaning |
+|:-----: | ------ | ------- |
+| X | X(q) | Pauli-X gate on qubit q |
+| ID | ID(q) | Identiy gate on qubit q |
+| SX | SX(q) | sqrt(X) gate on qubit q, a basis gate for IBMQ |
+| RZ | RZ(theta, q) | Rotate around Z axis for qubit q |
+| CX | CX(ctrl, q) | CNOT or Controlled X gate on qubit q|
+
+Internally, it supports arbitrary 1 or 2 qubit gates for optimization and extension to support new gates:
+|  Gate  | Format | Meaning |
+|:-----: | ------ | ------- |
+| C2 | C2(array of 0-15)  | Arbitrary density-matrix 1-qubit gate |
+| C4 | C4(array of 0-255) | Arbitrary density-matrix 2-qubit gate | 
+
+
+## Prerequisite
+DM-Sim generally only requires a C++ compiler. However, in order to build for GPUs or scaling (up and out) or using other APIs (python, qir, qiskit), we need the following libraries:
+
+|  Dependency  | Version | Comments |
+|:-----------: | ------- | -------- |
+|     CUDA     | 11.0 or later | NVIDIA GPU backend only | 
+|     GCC      | 7.0 or later  | Or other native C++ compiler |
+|    OpenMP    | Local     | single-node only |
+|     MPI      | Local   | CPU multi-node only | 
+|   NVSHMEM    | 2.6.0   | NVIDIA GPU cluster scale-out only |
+|  Python      | 3.4     | Python API only |
+|  Pybind11    | 2.5.0   | Python API only |
+|  mpi4py      | 3.0.3   | Python API on cluster only |
+|   ROCM       | 3.1.0   | AMD GPU only |
+|   Qiskit     | 0.20.0  | Qiskit interface only |
+|  Q# runtime  | Local   | Q#/QIR interface only |
+
+## Configure and run on ORNL Summit Supercomputer
+
+```
+$ git clone https://github.com/qir-alliance/nwqsim.git 
+$ cd nwqsim/env
+```
+You need to update the env file “setup_summit.sh”, specify the nvshmem path at the end of the LD_LIBRARY_PATH. If you use Q#/QIR, you need to configure the qsharp runtime paths
+```
+$ source setup_summit.sh
+$ cd ../dmsim/qasm/ibmq_bench/
+$ vim Makefile
+```
+You need to update the Makefile here, mainly the path to NVSHMEM, the GPU arch number, and the project number in run_all.lsf
 ```
 $ make -j 8
 $ bsub run_all.lsf
@@ -134,94 +218,18 @@ $ ./run_all
 
 
 
-C++/CUDA/HIP implementation for simulating generic quantum circuits through state-vector and density-matrix (with noise) on single CPU/GPU/Xeon-Phi, single-node-multi-CPUs/GPUs, and multi-node CPU/GPU cluster. It provides Python/C++ interface. It supports Q#/QIR as the front-end. It relies on PGAS-based SHMEM model for communication, this includes (1) GPUDirect Peer-to-Peer for single-node multi-GPU (NVIDIA and AMD GPUs) communication; (2) OpenSHMEM for CPU multi-node communication; (3) NVSHMEM (ROC_SHMEM) for GPU multi-node communication. Please see our Supercomputing-21[paper](doc/paper_sc21.pdf) for details. 
-
-This repository includes a specialized implementation for Q# [QIR Runtime](https://github.com/microsoft/qsharp-runtime). We realize the multi-controlled gates, exponential gates, and intermediate measurement. We include dozens of applications from the [QDK samples](https://github.com/microsoft/Quantum). 
-
-
-You may need to update "CMakeLists.txt" for configuration. You need to select the front-end: C++, Python or QIR. You need to select the backend: CPU, NVIDIA GPU or AMD GPU. You need to select the mode: single, OpenMP for single-node multi-devices, or MPI/OpenSHMEM/NVSHMEM for multi-nodes cluster. You may want to enable AVX512 optimization for Xeon-Phi KNL or high-end Intel X86 CPUs. For GPU, you may need to update the compute capability (e.g., 70 for Volta and 80 for Ampere).
-
-We provide a script "set_env.sh" for setting-up the environment on OLCF Summit HPC, and an lsf file for job submission. 
-
-## Prerequisite
-DM-Sim requires the following packages.
-
-|  Dependency  | Version | Comments |
-|:-----------: | ------- | -------- |
-|     CUDA     | 11.0 or later | For NVIDIA GPU backend | 
-|     GCC      | 7.0 or later  | |
-|    OpenMP    | 4.0     | For single-node scale-up |
-| Spectrum-MPI | 10.3    | For NVIDIA GPU cluster scale-out RDMA|
-|   NVSHMEM    | 2.0.3   | For NVIDIA GPU cluster scale-out |
-|  Python      | 3.4     | For Python-API |
-|  Pybind11    | 2.5.0   | For Python-API |
-|  mpi4py      | 3.0.3   | For Python-API cluster scale-out |
-|   ROCM       | 3.1.0   | For AMD GPU backend |
-
-The basic CPU version only requires GCC or other standard C++ compiler. It needs CUDA for NVIDIA GPU backend and ROCM for AMD GPU backend. It needs Python and PyBind11 for supporting python interface. It needs OpenSHMEM/NVSHMEM/ROC_SHMEM for CPU/NVIDIA-GPU/AMD-GPU multi-node running.
-
-The Q#/QIR relies on LLVM-10.0 or later, and [Q# Runtime](https://github.com/microsoft/qsharp-runtime).
-
-
-## Build
-
-```text
-cd svsim
-mkdir build
-cd build
-cmake ../
-```
-
-## Build
-If you use the C++ interface, you will need to develop a C++ driver program and the circuit function. Please see the adder_n10 example under the "example" folder. 
-
-```text
-./adder_n10_cpu_sin
-```
-
-If you use the Python interface, after the library is generated, you can directly execute the python script. 
-
-```text
-python adder_n10_sin.py 10
-```
-
-An example on using the Python interface is given below:
-```text
-import svsim_py_omp_wrapper as svsim_omp
-n_qubits = 10
-n_gpus = 4
-sim = svsim_omp.Simulation(n_qubits, n_gpus))
-sim.append(sim.X(0)) #add an X gate
-sim.append(sim.H(1)) #add an H gate
-sim.upload() #upload to GPU
-sim.run() #run
-sim.clear_circuit() #clear existing circuit
-sim.append(sim.H(0)) #add a new H gate 
-sim.upload() #upload to GPU
-sim.run() #run new circuit on original states
-res = sim.measure(10) #measure with 10 repetitions and return in a list
-```
-
-For benchmark applications, please see our [QASMBench](https://arxiv.org/abs/2005.13018) benchmakr suite, which is released [here](https://github.com/pnnl/qasmbench).
-
-## Support Tools
-
-We provide the tool folder for converting OpenQASM code to a python script that can be executed on SV-Sim. 
-
-
 ## Authors 
 
 #### [Ang Li](http://www.angliphd.com/), Senior Computer Scientist, Pacific Northwest National Laboratory (PNNL)
-
-#### [Sriram Krishnamoorthy](https://hpc.pnl.gov/people/sriram/), Lab Fellow, Pacific Northwest National Laboratory (PNNL)
 
 We are currently collaborating with Bo Fang from PNNL and the Microsoft Quantum team (Chris Granade, Bettina Heim, Stefan Wernli, Robin Kuzmin, Alan Geller, Guen Prawiroatmodjo and Martin Roetteler) on implementing the pipeline from Q# to [QIR](https://devblogs.microsoft.com/qsharp/introducing-quantum-intermediate-representation-qir/) to [SV-Sim](https://github.com/microsoft/qsharp-language/blob/main/Specifications/QIR/List.md). Many thanks to their strong support.
 
 
 ## Citation format
 
-Please cite our SC-21 paper:
+Please cite our SC'20 and SC'21 papers:
  - Ang Li, Bo Fang, Christopher Granade, Guen Prawiroatmodjo, Bettina Heim, Martin Roetteler and Sriram Krishnamoorthy, "SV-Sim: Scalable PGAS-based State Vector Simulation of Quantum Circuits" In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2021.
+ - Ang Li, Omer Subasi, Xiu Yang, and Sriram Krishnamoorthy. "Density Matrix Quantum Circuit Simulation via the BSP Machine on Modern GPU Clusters." In Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, 2020.
 
 Bibtex:
 ```text
@@ -231,8 +239,13 @@ Bibtex:
     booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
     year={2021}
 }
+@inproceedings{li2020density,
+    title={Density Matrix Quantum Circuit Simulation via the BSP Machine on Modern GPU Clusters},
+    author={Li, Ang and Subasi, Omer and Yang, Xiu and Krishnamoorthy, Sriram},
+    booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+    year={2020}
+}
 ``` 
-
 
 ## License
 
