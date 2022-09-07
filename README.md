@@ -13,7 +13,11 @@ NWQSim is under active development. Please raise any bugs and suggest features.
 
 ## About SV-Sim
 
-SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It supports the following quantum gates as the interface based on QASM-2, QASM-3, and QIR:
+SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. 
+
+![alt text](img/svsim_pip.png)
+
+SV-Sim supports the following quantum gates as the interface based on QASM-2, QASM-3, and QIR:
 
 
 |  Gate  | Format | Meaning |
