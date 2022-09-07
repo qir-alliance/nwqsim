@@ -246,17 +246,17 @@ $ ./run_all
 
 Additionally, the following people contribute the project:
 
-#### Sriram Krishnamoorthy, Pacific Northwest National Laboratory (Now in Google)
-#### Bo Fang, Pacific Northwest National Laboratory
-#### Muqing Zheng, Lehigh University and Pacific Northwest National Laboratory
-#### Cassandra Granade, Microsoft
-#### Martin Roetteler, Microsoft
-#### Bettina Heim, Microsoft
-#### Robin Kuzmin, Microsoft
-#### Stefan Wernli, Microsoft
-#### Guen Prawiroatmodjo, Microsoft
-#### Alan Geller, Microsoft
-#### Samuel Stein, Pacific Northwest National Laboratory
+ - Sriram Krishnamoorthy, Pacific Northwest National Laboratory (Now in Google)
+ - Bo Fang, Pacific Northwest National Laboratory
+ - Muqing Zheng, Lehigh University and Pacific Northwest National Laboratory
+ - Cassandra Granade, Microsoft
+ - Martin Roetteler, Microsoft
+ - Bettina Heim, Microsoft
+ - Robin Kuzmin, Microsoft
+ - Stefan Wernli, Microsoft
+ - Guen Prawiroatmodjo, Microsoft
+ - Alan Geller, Microsoft
+ - Samuel Stein, Pacific Northwest National Laboratory
 
 
 
