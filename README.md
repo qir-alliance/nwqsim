@@ -54,18 +54,86 @@ SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit sim
 | RESET  | RESET(q) | reset qubit q  to zero state | 
 
 
-Internally, it supports arbitrary 1 or 2 qubit gates:
+Internally, it supports arbitrary 1 or 2 qubit gates for optimization and extension to support new gates:
 |  Gate  | Format | Meaning |
 |:-----: | ------ | ------- |
 | C1 | C1(a0-a3)  | Arbitrary 1-qubit gate |
 | C2 | C2(a0-a15) | Arbitrary 2-qubit gate | 
+
+## Prerequisite
+SV-Sim generally only requires a C++ compiler. However, in order to build for GPUs or scaling (up and out) or using other APIs (python, qir, qiskit), we need the following libraries:
+
+|  Dependency  | Version | Comments |
+|:-----------: | ------- | -------- |
+|     CUDA     | 11.0 or later | NVIDIA GPU backend only | 
+|     GCC      | 7.0 or later  | Or other native C++ compiler |
+|    OpenMP    | Local     | single-node only |
+|     MPI      | Local   | CPU multi-node only | 
+|   NVSHMEM    | 2.6.0   | NVIDIA GPU cluster scale-out only |
+|  Python      | 3.4     | Python API only |
+|  Pybind11    | 2.5.0   | Python API only |
+|  mpi4py      | 3.0.3   | Python API on cluster only |
+|   ROCM       | 3.1.0   | AMD GPU only |
+|   Qiskit     | 0.20.0  | Qiskit interface only |
+|  Q# runtime  | Local   | Q#/QIR interface only |
+
+## Configure and run on ORNL Summit Supercomputer
+
+```
+$ git clone https://github.com/qir-alliance/nwqsim.git 
+$ cd nwqsim/env
+```
+You need to update the env file “setup_summit.sh”, specify the nvshmem path at the end of the LD_LIBRARY_PATH. If you use Q#/QIR, you need to configure the qsharp runtime paths
+```
+$ source setup_summit.sh
+$ cd ../qasm/ibmq_bench/
+$ vim Makefile
+```
+You need to update the Makefile here, mainly the path to NVSHMEM.
+You also need to update the project number in run_all.lsf
+```
+$ make -j 8
+$ bsub run_all.lsf
+```
+Alternatively, you can allocate an interactive job and execute
+```
+$ bsub -Is -W 20 -nnodes 2 -P CSCXXX  $SHELL
+$ ./run_all
+```
+
+## Configure and run on NERSC Perlmutter Supercomputer
+```
+$ git clone https://github.com/qir-alliance/nwqsim.git 
+$ cd nwqsim/env
+```
+You need to update the env file “setup_perlmutter.sh”, specify the nvshmem path at the end of the LD_LIBRARY_PATH. If you use Q#/QIR, you need to configure the qsharp runtime paths
+```
+$ source setup_perlmutter.sh
+$ cd ../qasm/ibmq_bench/
+$ vim Makefile
+```
+You need to update the Makefile here, mainly the path to NVSHMEM.
+```
+$ make -j 8
+```
+Alternatively, you can allocate an interactive job and execute
+```
+$ ./run_all
+```
+
+
+
+
+
+
+
+
 
 
 C++/CUDA/HIP implementation for simulating generic quantum circuits through state-vector and density-matrix (with noise) on single CPU/GPU/Xeon-Phi, single-node-multi-CPUs/GPUs, and multi-node CPU/GPU cluster. It provides Python/C++ interface. It supports Q#/QIR as the front-end. It relies on PGAS-based SHMEM model for communication, this includes (1) GPUDirect Peer-to-Peer for single-node multi-GPU (NVIDIA and AMD GPUs) communication; (2) OpenSHMEM for CPU multi-node communication; (3) NVSHMEM (ROC_SHMEM) for GPU multi-node communication. Please see our Supercomputing-21[paper](doc/paper_sc21.pdf) for details. 
 
 This repository includes a specialized implementation for Q# [QIR Runtime](https://github.com/microsoft/qsharp-runtime). We realize the multi-controlled gates, exponential gates, and intermediate measurement. We include dozens of applications from the [QDK samples](https://github.com/microsoft/Quantum). 
 
-## Configuration
 
 You may need to update "CMakeLists.txt" for configuration. You need to select the front-end: C++, Python or QIR. You need to select the backend: CPU, NVIDIA GPU or AMD GPU. You need to select the mode: single, OpenMP for single-node multi-devices, or MPI/OpenSHMEM/NVSHMEM for multi-nodes cluster. You may want to enable AVX512 optimization for Xeon-Phi KNL or high-end Intel X86 CPUs. For GPU, you may need to update the compute capability (e.g., 70 for Volta and 80 for Ampere).
 
