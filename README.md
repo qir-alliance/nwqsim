@@ -5,7 +5,7 @@ A Quantum System Simulation Environment on classical multi-node, multi-CPU/GPU h
 ![alt text](img/nwqsim.png)
 
 
-## Current version
+### Current version
 
 Latest version: **2.0**
 
