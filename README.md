@@ -132,6 +132,7 @@ We use an array to store the internal gate representations and perform density m
 
 ![alt text](img/dmsim_pip.png)
 
+### Noisy Simulation for IBMQ devices
 DM-Sim supports the following basis quantum gates for IBMQ devices:
 
 |  Gate  | Format | Meaning |
@@ -141,6 +142,33 @@ DM-Sim supports the following basis quantum gates for IBMQ devices:
 | SX | SX(q) | sqrt(X) gate on qubit q, a basis gate for IBMQ |
 | RZ | RZ(theta, q) | Rotate around Z axis for qubit q |
 | CX | CX(ctrl, q) | CNOT or Controlled X gate on qubit q|
+
+
+### Noisy Simulation for Rigetti devices
+
+|  Gate  | Format | Meaning |
+|:-----: | ------ | ------- |
+| RX  | | |
+| RZ  | | |
+| CX  | | |
+
+### Noisy Simulation for IonQ devices
+
+|  Gate  | Format | Meaning |
+|:-----: | ------ | ------- |
+| GPI  | | |
+| GPI2  | | |
+| GZ  | | |
+| MS  | | |
+
+
+### Noisy Simulation for Quantinuum devices
+|  Gate  | Format | Meaning |
+|:-----: | ------ | ------- |
+| RX  | | |
+| RZ  | | |
+| ZZ  | | |
+
 
 Internally, it supports arbitrary 1 or 2 qubit gates for optimization and extension to support new gates:
 |  Gate  | Format | Meaning |
@@ -208,12 +236,6 @@ Alternatively, you can allocate an interactive job and execute
 ```
 $ ./run_all
 ```
-
-
-
-
-
-
 
 
 
