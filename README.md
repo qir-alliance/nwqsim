@@ -11,11 +11,11 @@ NWQSim is under active development. Please raise any bugs and suggest features.
 
 ## About SV-Sim
 
-SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It assumes qubits are all-to-all connected unless the input circuits are with respect to circuit topology. We use an array to store the internal gate representations and perform gate fusion for advanced performance.  
+SV-Sim is implemented in C++/CUDA/HIP for general full-state quantum circuit simulation. It assumes qubits are all-to-all connected unless the input circuits are with respect to circuit topology. We use internal gate representations for advanced optimization and profiling.
 
 ![alt text](img/svsim_pip.png)
 
-SV-Sim supports the following quantum gates as the interface based on QASM-2, QASM-3, and QIR:
+SV-Sim supports the following quantum gates as the interface based on [OpenQASM-2](https://arxiv.org/pdf/1707.03429.pdf), [OpenQASM-3](https://arxiv.org/pdf/2104.14722.pdf), [QIR](https://github.com/microsoft/qsharp-runtime/blob/) and [Qiskit](https://qiskit.org/documentation/apidoc/circuit_library.html):
 
 
 |  Gate  | Format | Meaning |
@@ -63,7 +63,7 @@ Internally, it supports arbitrary 1 or 2 qubit gates for optimization and extens
 | C2 | C2(a0-a15) | Arbitrary 2-qubit gate | 
 
 ### Prerequisite
-SV-Sim generally only requires a C++ compiler. However, in order to build for GPUs or scaling (up and out) or using other APIs (python, qir, qiskit), we need the following libraries:
+SV-Sim in general only requires a C++ compiler. However, in order to build for GPUs or scaling (up and out) or using other APIs (python, qir, qiskit), we need the following libraries:
 
 |  Dependency  | Version | Comments |
 |:-----------: | ------- | -------- |
