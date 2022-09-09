@@ -13,6 +13,11 @@
 // ---------------------------------------------------------------------------
 #ifndef GATE_H_
 #define GATE_H_
+
+#include <iostream>
+#include <sstream>
+#include <vector>
+
 namespace NWQSim
 {
 //==========================================================
@@ -325,6 +330,56 @@ const __device__ char *OP_NAMES_NVGPU[] = {
     "C2",
     "C4"
 };
-/*#endif*/
+
+extern class Simulation;
+
+/***********************************************
+ * Gate Definition
+ ***********************************************/
+class Gate
+{
+public:
+    Gate(enum OP _op_name, IdxType _qubit, IdxType _ctrl=-1, ValType _theta=0) : 
+        op_name(_op_name), qubit(_qubit), ctrl(_ctrl), theta(_theta)
+    {
+        memset(gm_real, 0, sizeof(ValType)*16);
+        memset(gm_imag, 0, sizeof(ValType)*16);
+    }
+    ~Gate() {}
+    Gate(const Gate& g):op_name(g.op_name), qubit(g.qubit), ctrl(g.ctrl), theta(g.theta)
+    {
+        memcpy(gm_real, g.gm_real, 16*sizeof(ValType));
+        memcpy(gm_imag, g.gm_imag, 16*sizeof(ValType));
+    }
+    //set gm
+    void set_gm(ValType* real, ValType* imag, IdxType dim)
+    {
+        if (!(dim==2 || dim==4))
+            throw std::logic_error("Dim should be 2 (1-qubit gate) or 4 (2-qubit gate)!");
+        memcpy(gm_real, real, dim*dim*sizeof(ValType));
+        memcpy(gm_imag, imag, dim*dim*sizeof(ValType));
+    }
+    //applying the embedded gate operation on GPU side
+    __device__ void exe_op(Simulation* sim, ValType* sv_real, ValType* sv_imag);
+    //for dumping the gate
+    string gateToString()
+    {
+        std::stringstream ss;
+        ss << OP_NAMES[op_name] << "(qubit:" << qubit << ", ctrl:" << ctrl << ", theta:" 
+           << theta << ");" << std::endl;
+        return ss.str();
+    }
+    //Gate name
+    enum OP op_name;
+    IdxType qubit;
+    IdxType ctrl;
+    ValType theta;
+    //4-qubit gate parameters (after fusion)
+    ValType gm_real[16];
+    ValType gm_imag[16];
+}; //end of Gate definition
+
+
+
 }//end of namespace DMSim
 #endif

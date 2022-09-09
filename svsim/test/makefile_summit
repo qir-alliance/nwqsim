@@ -19,10 +19,10 @@ all: unit_test
 #all: Qrng_nvgpu
 #all: Grover_nvgpu
 
-unit_test: unit_test_nvgpu_mpi.cu dmsim_nvgpu_mpi.cuh config.h device_noise.hpp
+unit_test: unit_test_nvgpu_mpi.cu dmsim_nvgpu_mpi.cuh config.h 
 	$(NVCC) -ccbin CC -lnvshmem $(NVCC_FLAGS) $(QIR_BRIDGE_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU unit_test_nvgpu_mpi.cu -o $@
 
-circuit: circuit.cu dmsim_nvgpu_mpi.cuh config.h device_noise.hpp
+circuit: circuit.cu dmsim_nvgpu_mpi.cuh config.h 
 	$(NVCC) -ccbin CC -lnvshmem $(NVCC_FLAGS) $(QIR_BRIDGE_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU circuit.cu -o $@
 
 TeleportationSample_nvgpu: TeleportationSample_driver.cc TeleportationSample.ll dmsim_nvgpu_mpi.cuh config.h qsharp_wrapper.cu
