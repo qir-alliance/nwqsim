@@ -16,7 +16,10 @@
 
 #include <iostream>
 #include <sstream>
+#include <string>
 #include <vector>
+
+using namespace std;
 
 namespace NWQSim
 {
@@ -331,7 +334,7 @@ const __device__ char *OP_NAMES_NVGPU[] = {
     "C4"
 };
 
-extern class Simulation;
+class Simulation;
 
 /***********************************************
  * Gate Definition

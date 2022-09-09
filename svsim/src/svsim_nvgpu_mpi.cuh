@@ -112,10 +112,10 @@ public:
         tmp1_circuit.clear();
         tmp2_circuit.clear();
 
-        gate_fusion_1q(circuit, tmp1_circuit);
-        gate_fusion_2q_absorb_1q_forward(tmp1_circuit, tmp2_circuit);
-        gate_fusion_2q_absorb_1q_backward(tmp2_circuit, tmp3_circuit);
-        gate_fusion_2q(tmp3_circuit, fused_circuit);
+        gate_fusion_1q(circuit, tmp1_circuit, n_qubits);
+        gate_fusion_2q_absorb_1q_forward(tmp1_circuit, tmp2_circuit, n_qubits);
+        gate_fusion_2q_absorb_1q_backward(tmp2_circuit, tmp3_circuit, n_qubits);
+        gate_fusion_2q(tmp3_circuit, fused_circuit, n_qubits);
 
         this->n_gates = fused_circuit.size();
         SAFE_FREE_GPU(circuit_gpu);

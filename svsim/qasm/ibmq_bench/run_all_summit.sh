@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -A m4142_g
 #SBATCH -C gpu
-#SBATCH -q regular
+#SBATCH -q regular_ss11
 #SBATCH -t 240:00
 #SBATCH -n 8
 #SBATCH -c 1
@@ -9,8 +9,7 @@
 #SBATCH --gpus-per-task=1
 #SBATCH -o res_qasm
 
-#source /ccs/home/angli/sc22/SVFinal/env/setup_summit.sh
-source ../../env/setup_summit.sh
+source ../../../env/setup_summit.sh
 
 jsrun -n8 -a1 -g1 -c1 --smpiargs="-gpu" ./adder_n10
 jsrun -n8 -a1 -g1 -c1 --smpiargs="-gpu" ./bv_n15

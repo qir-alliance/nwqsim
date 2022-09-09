@@ -82,7 +82,7 @@ void expand_qubit(const Gate& g0, Gate& g, const IdxType qubit)
     kron(g0, gI, g, 2);
 }
 //This function is to fuse C2 gates (allows switching ctrl/qubit, e.g., in a SWAP gate)
-void gate_fusion_2q(const vector<Gate>& circuit_in, vector<Gate>& circuit_out)
+void gate_fusion_2q(const vector<Gate>& circuit_in, vector<Gate>& circuit_out, const IdxType n_qubits)
 {
     //prepare
     IdxType* table = new IdxType[n_qubits*n_qubits];
@@ -181,7 +181,7 @@ void gate_fusion_2q(const vector<Gate>& circuit_in, vector<Gate>& circuit_out)
 }
 
 //This function is to fuse C1 gates in a circuit
-void gate_fusion_1q(const vector<Gate>& circuit_in, vector<Gate>& circuit_out)
+void gate_fusion_1q(const vector<Gate>& circuit_in, vector<Gate>& circuit_out, const IdxType n_qubits)
 {
     //prepare
     IdxType* table = new IdxType[n_qubits];
@@ -254,7 +254,7 @@ void gate_fusion_1q(const vector<Gate>& circuit_in, vector<Gate>& circuit_out)
     delete[] canfuse;
 }
 
-void gate_fusion_2q_absorb_1q_forward(const vector<Gate>& circuit_in, vector<Gate>& circuit_out)
+void gate_fusion_2q_absorb_1q_forward(const vector<Gate>& circuit_in, vector<Gate>& circuit_out, const IdxType n_qubits)
 {
     //prepare
     IdxType* table = new IdxType[n_qubits*n_qubits];
@@ -365,7 +365,7 @@ void gate_fusion_2q_absorb_1q_forward(const vector<Gate>& circuit_in, vector<Gat
     delete[] canfuse;
 }
 
-void gate_fusion_2q_absorb_1q_backward(const vector<Gate>& circuit_in, vector<Gate>& circuit_out)
+void gate_fusion_2q_absorb_1q_backward(const vector<Gate>& circuit_in, vector<Gate>& circuit_out, const IdxType n_qubits)
 {
     //prepare
     IdxType* table = new IdxType[n_qubits*n_qubits];

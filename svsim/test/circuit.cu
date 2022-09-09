@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <mpi.h>
-#include "util.h"
-#include "dmsim_nvgpu_mpi.cuh"
+#include "../src/util.h"
+#include "../src/svsim_nvgpu_mpi.cuh"
 //Use the NWQSim namespace to enable C++/CUDA APIs
 using namespace NWQSim;
 
@@ -8356,7 +8356,7 @@ void prepare_circuit(Simulation &sim)
 int main(int argc, char *argv[])
 {
 	MPI_Init(&argc, &argv);
-	Simulation sim;
+	Simulation sim(16);
 	prepare_circuit(sim);
 	sim.sim();
 	MPI_Finalize();
