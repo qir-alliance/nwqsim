@@ -111,15 +111,16 @@ You need to update the env file “setup_perlmutter.sh”, specify the nvshmem p
 ```
 $ source setup_perlmutter.sh
 $ cd ../svsim/qasm/ibmq_bench/
-$ vim Makefile
+$ vim makefile_perlmutter
 ```
 You need to update the Makefile here, mainly the path to NVSHMEM.
 ```
-$ make -j 8
+$ make -j 8 -f makefile_perlmutter
 ```
 Alternatively, you can allocate an interactive job and execute
 ```
-$ ./run_all
+$ salloc -N 2 -n 8 --qos interactive_ss11 --time 60:00 --constraint gpu -c 1 -G 8 --gpus-per-task 1 --account=m4142_g
+$ ./run_all_perlmutter.sh
 ```
 
 
