@@ -1,6 +1,6 @@
-NVCC = /opt/nvidia/hpc_sdk/Linux_x86_64/22.5/cuda/11.7/bin/nvcc
-NVCC_FLAGS = -O3 -arch=sm_80 -m64 -std=c++14 -rdc=true -allow-unsupported-compiler --compiler-options -fPIC -ccbin CC
-NVCC_LIBS = -lm -lcuda -lfabric -lnvidia-ml -I/global/homes/a/angli/nvshmem/nvshmem/include -L/global/homes/a/angli/nvshmem/nvshmem/lib/ -L/opt/nvidia/hpc_sdk/Linux_x86_64/22.5/cuda/11.7/lib64 -L/opt/cray/libfabric/1.15.0.0/lib64/ -L/opt/nvidia/hpc_sdk/Linux_x86_64/22.5/cuda/lib64/stubs/
+NVCC = /sw/summit/cuda/11.4.0/bin/nvcc
+NVCC_FLAGS = -O3 -arch=sm_70 -m64 -std=c++14 -rdc=true --compiler-options -fPIC -ccbin mpicxx
+NVCC_LIBS = -lm -lnvshmem -I/ccs/home/angli/nvshmem/nvshmem_src_2.6.0-1/build/include -L/ccs/home/angli/nvshmem/nvshmem_src_2.6.0-1/build/lib -lcuda -lnvidia-ml
 CC_FLAGS = -O3 -m64 -std=c++14 -fPIC -fopenmp
 SCALE = -D USE_MPI
 

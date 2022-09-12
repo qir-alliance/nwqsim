@@ -1,7 +1,7 @@
 NVCC = /sw/summit/cuda/11.4.0/bin/nvcc
 NVCC_FLAGS = -O3 -arch=sm_70 -m64 -std=c++14 -rdc=true --compiler-options -fPIC -ccbin mpicxx
-NVCC_LIBS = -lm -lnvshmem -I/ccs/home/angli/nvshmem/nvshmem_src_2.2.1-0/build/include -L/ccs/home/angli/nvshmem/nvshmem_src_2.2.1-0/build/lib -lcuda
-CC_FLAGS = -O3 -m64 -std=c++14 -fPIC -fopenmp
+NVCC_LIBS = -lm -lnvshmem -I/ccs/home/angli/nvshmem/nvshmem_src_2.2.1-0/build/include -L/ccs/home/angli/nvshmem/nvshmem_src_2.2.1-0/build/lib -lcuda -lnvidia-ml 
+CC_FLAGS = -O3 -m64 -std=c++14 -fPIC -fopenmp 
 SCALE = -D USE_MPI
 CC = mpicxx
 
@@ -16,7 +16,7 @@ QIR_BRIDGE_FLAGS = -I. -I$(QIR_BRIDGE_PUBLIC) -L$(QIR_BRIDGE_BUILD)/lib/QIR -L$(
 all: qpe_nvgpu
 
 
-qpe_nvgpu: main.cpp est-energy.o JW_QIR.o JW_json.o main.o ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h ../qsharp_wrapper.cu ../../src/device_noise.hpp
+qpe_nvgpu: main.cpp est-energy.o JW_QIR.o JW_json.o main.o ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h ../qsharp_wrapper.cu 
 	$(NVCC) -ccbin $(CC) -lnvshmem $(NVCC_FLAGS) $(QIR_BRIDGE_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU ../qsharp_wrapper.cu est-energy.o main.o JW_QIR.o JW_json.o -o $@
 
 est-energy.o: est-energy.IBMQ.ll
