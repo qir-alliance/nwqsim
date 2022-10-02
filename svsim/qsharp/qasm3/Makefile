@@ -14,7 +14,15 @@ QIR_BRIDGE_BUILD = /global/homes/a/angli/qsharp-runtime/src/Qir/Runtime/build/
 QIR_BRIDGE_FLAGS = -I. -I$(QIR_BRIDGE_PUBLIC) -L$(QIR_BRIDGE_BUILD)/lib/QIR -L$(QIR_BRIDGE_BUILD)/lib/QSharpCore -L$(QIR_BRIDGE_BUILD)/lib/QSharpFoundation -L$(QIR_BRIDGE_BUILD)/lib/Tracer -lMicrosoft.Quantum.Qir.Runtime -lMicrosoft.Quantum.Qir.QSharp.Core -lMicrosoft.Quantum.Qir.QSharp.Foundation -lMicrosoft.Quantum.Qir.Tracer
 
 
-all: qpe_nvgpu
+all: ghz_nvgpu
+
+
+ghz_nvgpu: ghz.qasm ../QSharpQcorShim.cpp ../qsharp_wrapper.cu ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h
+	#docker run --rm -v /home/angli/raid/svsim_reform/svsim_qsharp/demo:/tmp/qcor qcor/cli -c "qcor --emit-llvm /tmp/qcor/ghz.qasm" 2>ghz.ll
+	$(QIRCC) $(QIRCC_FLAGS) -I$(QIR_BRIDGE_PUBLIC) -o ghz.o -c ghz.ll
+	CC $(QIRCC_FLAGS) -I$(QIR_BRIDGE_PUBLIC) -o QSharpQcorShim.o -c ../QSharpQcorShim.cpp
+	$(NVCC) -ccbin CC -lnvshmem $(NVCC_FLAGS) $(QIR_BRIDGE_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU  ../qsharp_wrapper.cu ghz.o QSharpQcorShim.o -o $@
+
 
 qpe_nvgpu: main.cpp est-energy.o JW_QIR.o JW_json.o main.o ../../src/svsim_nvgpu_mpi.cuh ../../src/config.h ../qsharp_wrapper.cu 
 	$(NVCC) -ccbin CC -lnvshmem $(NVCC_FLAGS) $(QIR_BRIDGE_FLAGS) $(NVCC_LIBS) $(SCALE) -D USE_NVGPU ../qsharp_wrapper.cu est-energy.o main.o JW_QIR.o JW_json.o -o $@
